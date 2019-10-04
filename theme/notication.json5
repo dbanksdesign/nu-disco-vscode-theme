@@ -1,0 +1,17 @@
+{
+  "notificationCenter": {
+    "border": { "value": "" }
+  },
+  "notificationToast": {
+    "border": { "value": "#FFFFFF00" }
+  },
+  "notificationCenterHeader": {
+    "background": { "value": "" },
+    "foreground": { "value": "" }
+  },
+  "notifications": {
+    "background": { "value": "{color.background.tertiary.value}" },
+    "foreground": { "value": "{color.font.code.22.value}" },
+    "border": { "value": "#FFFFFF00" }
+  }
+}

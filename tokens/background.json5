@@ -1,0 +1,10 @@
+{
+  "color": {
+    "background": {
+      "primary": { "value": "{color.core.grey.100.value}" },
+      "secondary": { "value": "{color.core.grey.90.value}" },
+      "tertiary": { "value": "{color.core.grey.80.value}" },
+      "quarternary": { "value": "{color.core.grey.60.value}" }
+    }
+  }
+}

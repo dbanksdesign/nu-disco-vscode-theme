@@ -1,0 +1,5 @@
+{
+  "progressBar": {
+    "background": { "value": "{color.core.teal.40.value}" }
+  }
+}

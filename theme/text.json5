@@ -1,0 +1,19 @@
+{
+  "textBlockQuote": {
+    "background": {},
+    "border": {}
+  },
+  "textCodeBlock": {
+    "background": { "value": "{color.background.primary.value}" }
+  },
+  "textLink": {
+    "activeForeground": { "value": "{color.core.pink.60.value}" },
+    "foreground": { "value": "{color.core.teal.60.value}" }
+  },
+  "textPreformat": {
+    "foreground": { "value": "#00ff00" }
+  },
+  "textSeparator": {
+    "foreground": { "value": "#00ff00" }
+  }
+}

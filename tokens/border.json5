@@ -1,0 +1,10 @@
+{
+  "color": {
+    "border": {
+      "primary": { "value": "#FFFFFF66" },
+      "secondary": { "value": "#FFFFFF33" },
+      "tertiary": { "value": "#FFFFFF11" },
+      "active": { "value": "{color.core.teal.20.value}66" }
+    }
+  }
+}

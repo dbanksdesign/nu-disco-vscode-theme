@@ -1,0 +1,33 @@
+{
+  "color": {
+    "font": {
+      "primary": { "value": "#FFFFFFEE" },
+      "secondary": { "value": "#FFFFFFBB" },
+      "tertiary": { "value": "#FFFFFF99" },
+      "quarternary": { "value": "#FFFFFF66" },
+      "quint": { "value": "#FFFFFF44" },
+      "active": { "value": "{color.core.teal.40.value}" },
+      "code": {
+        "1": { "value": "{color.core.red.10.value}" },
+        "2": { "value": "{color.core.orange.10.value}" },
+        "3": { "value": "{color.core.yellow.10.value}" },
+        "4": { "value": "{color.core.lime.10.value}" },
+        "5": { "value": "{color.core.green2.10.value}" },
+        "6": { "value": "{color.core.teal.10.value}" },
+        "7": { "value": "{color.core.blue.10.value}" },
+        "8": { "value": "{color.core.purple.10.value}" },
+        "9": { "value": "{color.core.pink.10.value}" },
+        
+        "21": { "value": "{color.core.red.20.value}" },
+        "22": { "value": "{color.core.orange.20.value}" },
+        "23": { "value": "{color.core.yellow.20.value}" },
+        "24": { "value": "{color.core.lime.20.value}" },
+        "25": { "value": "{color.core.green2.20.value}" },
+        "26": { "value": "{color.core.teal.20.value}" },
+        "27": { "value": "{color.core.blue.20.value}" },
+        "28": { "value": "{color.core.purple.20.value}" },
+        "29": { "value": "{color.core.pink.20.value}" },
+      }
+    }
+  }
+}

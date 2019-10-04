@@ -1,0 +1,12 @@
+{
+  "editorGroup": {
+    "emptyBackground": { "value": "{color.background.secondary.value}" },
+    "border": { "value": "#011627" },
+    "dropBackground": { "value": "#7e57c273" }
+  },
+  "editorGroupHeader": {
+    "noTabsBackground": { "value": "{color.background.secondary.value}" },
+    "tabsBackground": { "value": "{color.background.secondary.value}" },
+    "tabsBorder": { "value": "#0000" }
+  }
+}

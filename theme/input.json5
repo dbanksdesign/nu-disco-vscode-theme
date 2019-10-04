@@ -1,0 +1,22 @@
+{
+  "input": {
+    "background": { "value": "{color.background.tertiary.value}" },
+    "border": { "value": "#ffffff00" },
+    "foreground": { "value": "#ffffffcc" },
+    "placeholderForeground": { "value": "{color.font.tertiary.value}" }
+  },
+  "inputValidation": {
+    "errorBackground": { "value": "{color.core.red.40.value}" },
+    "errorForeground": { "value": "{color.core.grey.100.value}" },
+    "errorBorder": { "value": "{color.core.red.40.value}" },
+    "infoBackground": { "value": "{color.core.teal.40.value}" },
+    "infoForeground": { "value": "{color.core.grey.100.value}" },
+    "infoBorder": { "value": "{color.core.teal.40.value}" },
+    "warningBackground": { "value": "{color.core.orange.40.value}" },
+    "warningForeground": { "value": "{color.core.grey.100.value}" },
+    "warningBorder": { "value": "{color.core.orange.40.value}" }
+  },
+  "inputOption": {
+    "activeBorder": { "value": "#ffffff" }
+  }
+}

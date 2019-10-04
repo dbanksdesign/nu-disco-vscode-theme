@@ -1,0 +1,12 @@
+{
+  "panel": {
+    "border": { "value": "{color.border.primary.value}" },
+    "background": { "value": "{color.background.tertiary.value}" },
+    "dropBackground": { "value": "{color.background.secondary.value}" }
+  },
+  "panelTitle": {
+    "activeBorder": { "value": "{color.core.teal.80.value}" },
+    "activeForeground": { "value": "{color.font.primary.value}" },
+    "inactiveForeground": { "value": "{color.font.secondary.value}" }
+  }
+}

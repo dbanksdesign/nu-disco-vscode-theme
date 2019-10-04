@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "foreground": { "value": "#ff9900" },
+    "background": { "value": "#00ff00" },
+    "selectionForeground": {},
+    "selectionBackground": {},
+    "selectionBorder": {},
+    "separatorBackground": {},
+    "border": {}
+  },
+  "menubar": {
+    "selectionForeground": {},
+    "selectionBackground": {},
+    "selectionBorder": {}
+  }
+}

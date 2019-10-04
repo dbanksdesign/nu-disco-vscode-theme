@@ -1,0 +1,80 @@
+{
+  "editor": {
+    "background": { "value": "{color.background.primary.value}" },
+    "foreground": { "value": "{color.font.primary.value}" },
+    "selectionBackground": { "value": "{color.background.tertiary.value}" },
+    "selectionHighlightBackground": { "value": "{color.core.teal.20.value}33" },
+    "inactiveSelectionBackground": { "value": "#7e57c25a" },
+    "wordHighlightBackground": { "value": "#32374D" },
+    "wordHighlightStrongBackground": { "value": "#2E3250" },
+    "findMatchBackground": { "value": "#5f7e9779" },
+    "findMatchHighlightBackground": { "value": "#ff9900" },
+    "findRangeHighlightBackground": { "value": null },
+    "hoverHighlightBackground": { "value": "{color.core.purple.20.value}33" },
+    "lineHighlightBackground": { "value": "{color.background.secondary.value}" },
+    "lineHighlightBorder": { "value": null },
+    "rangeHighlightBackground": { "value": "{color.core.purple.20.value}66" }
+  },
+  "editorLineNumber": {
+    "foreground": { "value": "{color.font.tertiary.value}" },
+    "activeForeground": { "value": "{color.core.teal.20.value}CC" }
+  },
+  "editorCursor": {
+    "foreground": { "value": "{color.core.teal.40.value}" }
+  },
+  "editorLink": {
+    "activeForeground": "#ff9900"
+  },
+  "editorGutter": {
+    "background": { "value": "{color.background.primary.value}" },
+    "modifiedBackground": { "value": "{color.core.teal.40.value}" },
+    "addedBackground": { "value": "{color.core.green2.20.value}" },
+    "deletedBackground": { "value": "{color.core.red.40.value}" }
+  },
+  "editorOverviewRuler": {
+    "border": { "value": null },
+    "findMatchForeground": { "value": "{color.core.teal.40.value}66" },
+    "rangeHighlightForeground": { "value": "#0000ff" },
+    "selectionHighlightForeground": { "value": "{color.core.purple.40.value}" },
+    "currentContentForeground": { "value": "#7e57c2" },
+    "incomingContentForeground": { "value": "#7e57c2" },
+    "commonContentForeground": { "value": "#7e57c2" }
+  },
+  "editorError": {
+    "foreground": { "value": "{color.core.red.40.value}" },
+    "border": { "value": null }
+  },
+  "editorWarning": {
+    "foreground": { "value": "{color.core.orange.40.value}" },
+    "border": { "value": null }
+  },
+  "editorInfo": {
+    "foreground": { "value": "{color.core.teal.40.value}" },
+    "border": { "value": null }
+  },
+  "editorHint": {
+    "foreground": { "value": "{color.core.purple.40.value}" },
+    "border": { "value": "#FFFFFF00" }
+  },
+  "editorBracketMatch": {
+    "background": { "value": "{color.core.teal.40.value}33" },
+    "border": { "value": "#FFFFFF00" }
+  },
+  "editorWhitespace": {
+    "foreground": { "value": "{color.font.quint.value}" }
+  },
+  "editorIndentGuide": {
+    "background": { "value": "{color.border.secondary.value}" },
+    "activeBackground": { "value": "{color.border.active.value}" }
+  },
+  "editorRuler": {
+    "foreground": { "value": "{color.border.secondary.value}" }
+  },
+  "editorCodeLens": {
+    "foreground": { "value": "{color.core.teal.40.value}CC" }
+  },
+  "editorUnnecessaryCode": {
+    "opacity": { "value": "#000000CC" },
+    "border": { "value": "{color.border.primary.value}" }
+  }
+}

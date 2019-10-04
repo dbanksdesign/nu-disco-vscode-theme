@@ -1,0 +1,9 @@
+{
+  "titleBar": {
+    "border": { "value": "#ff9900" },
+    "activeBackground": { "value": "#00ff00" },
+    "activeForeground": { "value": "" },
+    "inactiveBackground": { "value": "#0000ff" },
+    "inactiveForeground": { "value": "" }
+  }
+}

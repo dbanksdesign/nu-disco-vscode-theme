@@ -1,0 +1,6 @@
+{
+  "badge": {
+    "foreground": { "value": "{color.font.primary.value}" },
+    "background": { "value": "{color.core.teal.100.value}" }
+  }
+}

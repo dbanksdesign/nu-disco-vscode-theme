@@ -1,0 +1,4 @@
+{
+  "focusBorder": { "value": "{color.border.tertiary.value}" },
+  "foreground": { "value": "{color.font.primary.value}" }
+}

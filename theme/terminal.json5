@@ -1,0 +1,22 @@
+{
+  "terminal": {
+    // "ansiWhite": { "value": "#ffffff" },
+    // "ansiBlack": { "value": "{color.core.grey.100.value}" },
+    // "ansiBlue": { "value": "#82AAFF" },
+    // "ansiCyan": { "value": "#21c7a8" },
+    // "ansiGreen": { "value": "{color.core.green2.40.value}" },
+    // "ansiMagenta": { "value": "{color.core.pink.40.value}" },
+    // "ansiRed": { "value": "{color.core.red.40.value}" },
+    // "ansiYellow": { "value": "#addb67" },
+    // "ansiBrightWhite": { "value": "#ffffff" },
+    // "ansiBrightBlack": { "value": "#575656" },
+    // "ansiBrightBlue": { "value": "#82AAFF" },
+    // "ansiBrightCyan": { "value": "#7fdbca" },
+    // "ansiBrightGreen": { "value": "#ff9900" },
+    // "ansiBrightMagenta": { "value": "#C792EA" },
+    // "ansiBrightRed": { "value": "#EF5350" },
+    // "ansiBrightYellow": { "value": "#ffeb95" },
+    // "selectionBackground": { "value": "#1b90dd4d" }
+  },
+  "terminalCursor.background": { "value": "#234d70" }
+}

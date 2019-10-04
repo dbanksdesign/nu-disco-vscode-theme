@@ -1,0 +1,12 @@
+{
+  "activityBar": {
+    "background": { "value": "{color.background.tertiary.value}" },
+    "dropBackground": { "value": "#0CABA6" },
+    "foreground": { "value": "{color.core.teal.40.value}CC" },
+    "border": { "value": "#FFFFFF00" }
+  },
+  "activityBarBadge": {
+    "background": { "value": "{color.core.teal.100.value}" },
+    "foreground": { "value": "{color.font.primary.value}" }
+  }
+}

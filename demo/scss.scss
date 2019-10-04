@@ -1,0 +1,75 @@
+@import "~StyleDictionary/SellerMobileStyleDictionary/_variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+
+  @include breakpoint(100rem) {
+    font-size: 112.5%;
+  }
+}
+
+// Comment
+body {
+  line-height: 1.5;
+  color: $smop-color-font-secondary;
+  background: $smop-color-background-base;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: $smop-size-padding-large;
+  margin-bottom: $smop-size-padding-base;
+  color: $smop-color-font-base;
+  word-wrap: break-word;
+  font-weight: bold;
+
+  &:first-child { margin-top: 0; }
+}
+
+.size-1 { font-size: $doc-size-font-1; }
+.size-2 { font-size: $doc-size-font-2; }
+.size-3 { font-size: $doc-size-font-3; }
+.size-4 { font-size: $doc-size-font-4; }
+.size-5 { font-size: $doc-size-font-5; }
+.size-6 { font-size: $doc-size-font-6; }
+.size-7 { font-size: $doc-size-font-7; }
+
+#id {
+  & > .class {}
+}
+
+a {
+  text-decoration: none;
+  color: $smop-color-font-link;
+  transition: all $smop-transition-item-base;
+
+  &:hover,
+  &:active {
+    color: $smop-color-font-active;
+  }
+}
+
+b, strong {
+  color: $smop-color-font-base;
+}
+
+section {
+  @include clearfix();
+}
+
+p > code {
+  font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,4 @@
+{
+  "contrastActiveBorer": { "value": "{color.border.primary.value}" },
+  "contrastBorder": { "value": "{color.border.secondary.value}" }
+}

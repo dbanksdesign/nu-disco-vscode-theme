@@ -1,0 +1,10 @@
+{
+  "gitDecoration": {
+    "addedResourceForeground": { "value": "{color.core.green2.20.value}" },
+    "modifiedResourceForeground": { "value": "{color.core.teal.20.value}" },
+    "deletedResourceForeground": { "value": "{color.core.red.20.value}" },
+    "untrackedResourceForeground": { "value": "{color.core.orange.20.value}" },
+    "ignoredResourceForeground": { "value": "{color.font.tertiary.value}" },
+    "conflictingResourceForeground": { "value": "{color.core.pink.20.value}" }
+  }
+}

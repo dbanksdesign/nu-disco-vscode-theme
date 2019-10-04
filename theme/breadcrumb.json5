@@ -1,0 +1,8 @@
+{
+  "breadcrumb": {
+    "background": { "value": "{color.background.primary.value}" },
+    "foreground": { "value": "{color.font.secondary.value}" },
+    "focusForeground": { "value": "{color.font.active.value}" },
+    "activeSelectionForeground": { "value": "{color.core.purple.10.value}" }
+  }
+}

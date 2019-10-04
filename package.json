@@ -1,0 +1,30 @@
+{
+    "name": "pascal-vs-code-theme",
+    "displayName": "Pascal Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "scripts": {
+        "build": "style-dictionary build --config ./config.js",
+        "watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pascal Theme",
+                "uiTheme": "vs-dark",
+                "path": "./dist/PascalTheme.color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "chokidar-cli": "^2.0.0",
+        "style-dictionary": "^2.8.2"
+    }
+}
