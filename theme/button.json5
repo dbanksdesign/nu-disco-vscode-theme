@@ -1,7 +1,7 @@
 {
   "button": {
     "foreground": {},
-    "background": {},
-    "hoverBackground": {}
+    "background": { "value": "{color.core.teal.100.value}" },
+    "hoverBackground": { "value": "{color.core.teal.80.value}" }
   }
 }

@@ -1,9 +1,9 @@
 {
   "titleBar": {
-    "border": { "value": "#ff9900" },
-    "activeBackground": { "value": "#00ff00" },
-    "activeForeground": { "value": "" },
-    "inactiveBackground": { "value": "#0000ff" },
-    "inactiveForeground": { "value": "" }
+    "border": { "value": "#ffffff00" },
+    "activeBackground": { "value": "{color.core.teal.100.value}" },
+    "activeForeground": { "value": "{color.font.primary.value}" },
+    "inactiveBackground": { "value": "{color.background.tertiary.value}" },
+    "inactiveForeground": { "value": "{color.font.secondary.value}" }
   }
 }

@@ -1,4 +1,6 @@
+// Extra borders around elements for hight contrast themes
+// https://code.visualstudio.com/api/references/theme-color#contrast-colors
 {
-  "contrastActiveBorer": { "value": "{color.border.primary.value}" },
-  "contrastBorder": { "value": "{color.border.secondary.value}" }
+  "contrastActiveBorder": {  },
+  "contrastBorder": {  }
 }

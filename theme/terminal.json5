@@ -1,22 +1,25 @@
 {
   "terminal": {
-    // "ansiWhite": { "value": "#ffffff" },
-    // "ansiBlack": { "value": "{color.core.grey.100.value}" },
-    // "ansiBlue": { "value": "#82AAFF" },
-    // "ansiCyan": { "value": "#21c7a8" },
-    // "ansiGreen": { "value": "{color.core.green2.40.value}" },
-    // "ansiMagenta": { "value": "{color.core.pink.40.value}" },
-    // "ansiRed": { "value": "{color.core.red.40.value}" },
-    // "ansiYellow": { "value": "#addb67" },
-    // "ansiBrightWhite": { "value": "#ffffff" },
-    // "ansiBrightBlack": { "value": "#575656" },
-    // "ansiBrightBlue": { "value": "#82AAFF" },
-    // "ansiBrightCyan": { "value": "#7fdbca" },
-    // "ansiBrightGreen": { "value": "#ff9900" },
-    // "ansiBrightMagenta": { "value": "#C792EA" },
-    // "ansiBrightRed": { "value": "#EF5350" },
-    // "ansiBrightYellow": { "value": "#ffeb95" },
-    // "selectionBackground": { "value": "#1b90dd4d" }
+    "ansiWhite": { "value": "{color.font.primary.value}" },
+    "ansiBlack": { "value": "{color.core.grey.90.value}" },
+    "ansiBlue": { "value": "{color.core.blue.40.value}" },
+    "ansiCyan": { "value": "{color.core.teal.40.value}" },
+    "ansiGreen": { "value": "{color.core.green2.40.value}" },
+    "ansiMagenta": { "value": "{color.core.pink.40.value}" },
+    "ansiRed": { "value": "{color.core.red.40.value}" },
+    "ansiYellow": { "value": "{color.core.yellow.20.value}" },
+    "ansiBrightWhite": { "value": "#ffffff" },
+    "ansiBrightBlack": { "value": "{color.core.grey.100.value}" },
+    "ansiBrightBlue": { "value": "{color.core.blue.10.value}" },
+    "ansiBrightCyan": { "value": "{color.core.teal.10.value}" },
+    "ansiBrightGreen": { "value": "{color.core.green2.10.value}" },
+    "ansiBrightMagenta": { "value": "{color.core.pink.10.value}" },
+    "ansiBrightRed": { "value": "{color.core.red.10.value}" },
+    "ansiBrightYellow": { "value": "{color.core.yellow.10.value}" },
+    "selectionBackground": { "value": "{color.core.teal.20.value}66" }
   },
-  "terminalCursor.background": { "value": "#234d70" }
+  "terminalCursor": {
+    "background": { "value": "{color.core.teal.20.value}66" },
+    "foreground": { "value": "{color.core.teal.20.value}66" }
+  }
 }

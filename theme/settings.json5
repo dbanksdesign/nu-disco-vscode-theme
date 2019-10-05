@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "headerForeground": { "value": "{color.font.code.8.value}" },
+    "textInputBackground": { "value": "{color.background.tertiary.value}" },
+    "textInputForeground": { "value": "{color.font.primary.value}" },
+    "dropdownBackground": { "value": "{color.background.tertiary.value}" },
+    "dropdownForeground": { "value": "{color.font.primary.value}" },
+    "modifiedItemIndicator": { "value": "{color.core.teal.20.value}" }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "menu": {
-    "foreground": { "value": "#ff9900" },
-    "background": { "value": "#00ff00" },
+    "foreground": { "value": "#ffffff" },
+    "background": { "value": "{color.background.tertiary.value}" },
     "selectionForeground": {},
     "selectionBackground": {},
     "selectionBorder": {},

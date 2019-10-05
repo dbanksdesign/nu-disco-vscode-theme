@@ -1,5 +1,5 @@
 {
   "selection": {
-    "background": { "value": "{color.background.tertiary.value}" }
+    "background": { "value": "{color.core.teal.20.value}66" }
   }
 }

@@ -11,7 +11,7 @@
     "foreground": { "value": "{color.core.teal.60.value}" }
   },
   "textPreformat": {
-    "foreground": { "value": "#00ff00" }
+    "foreground": { "value": "{color.font.secondary.value}" }
   },
   "textSeparator": {
     "foreground": { "value": "#00ff00" }

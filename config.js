@@ -22,10 +22,10 @@ const format = function(dictionary) {
     }
   }));
   
-  Object.values(dictionary.properties._tokenColors)
-    .forEach((token) => {
-      theme.tokenColors.push(token);
-    });
+  // Object.values(dictionary.properties._tokenColors)
+  //   .forEach((token) => {
+  //     theme.tokenColors.push(token);
+  //   });
   
   return JSON.stringify(theme, null, 2);
 }
@@ -38,7 +38,7 @@ module.exports = {
   transform: {
     nameTransform: {
       type: 'name',
-      matcher: (token) => token.path[0] !== 'tokenColors' || '_tokenColors',
+      matcher: (token) => token.path[0] !== 'tokenColors',
       transformer: (token) => token.path.join('.')
     },
     nameSyntaxTokenTransform: {

@@ -1,3 +1,5 @@
+// https://www.sublimetext.com/docs/3/scope_naming.html
+
 {
   "tokenColors": {
     "comment": {
@@ -8,7 +10,8 @@
       },
       "block": {
         "documentation": { "value": "{color.font.secondary.value}" }
-      }
+      },
+      "single": { "value": "{color.font.tertiary.value}" }
     },
     
     "constant": {
@@ -81,14 +84,16 @@
     "keyword": {
       "default": { "value": "{color.font.code.8.value}" },
       "control": {
+        "default": { "value": "{color.font.code.8.value}" },
         "conditional": {},
+        "export": {},
         "import": {
           "value": "{color.font.code.8.value}",
-          fontStyle: "italic"
+          "fontStyle": "italic"
         },
         "from": { 
           "value": "{color.font.code.8.value}",
-          fontStyle: "italic"
+          "fontStyle": "italic"
         },
         "flow": {
           "value": "{color.font.code.8.value}"
