@@ -1,0 +1,31 @@
+{
+  "tokenColors": {
+    "constant": {
+      "language": {
+        // Dart does not seem to have great syntax grammar definitions
+        "dart": { "value": "{color.font.code.26.value}" },
+        "boolean": {
+          "false": { "value": "{color.font.code.21.value}" },
+          "true": { "value": "{color.font.code.25.value}" },
+        },
+        "import-export-all": { 
+          "value": "{color.font.code.27.value}"
+        },
+        "null": { "value": "{color.font.code.21.value}" },
+        "symbol": { "value": "{color.font.code.29.value}" }
+      },
+      "other": {
+        "placeholder": {}
+      },
+      "character": {
+        "escape": {}
+      },
+      "numeric": {
+        "default": { "value": "{color.font.code.29.value}" },
+        "integer": {},
+        "complex": {},
+        "float": {}
+      }
+    },
+  }
+}

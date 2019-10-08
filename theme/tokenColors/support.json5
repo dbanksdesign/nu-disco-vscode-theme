@@ -1,0 +1,28 @@
+{
+  "tokenColors": {
+    support: {
+      // default: { value: "{color.font.code.2.value}" },
+      class: {
+        default: { value: "{color.font.code.22.value}" },
+        component: {
+          default: { value: "{color.font.code.22.value}" }
+        }
+      },
+      "constant": {
+        "color": { "value": "{color.font.code.27.value}" },
+        "font-name": { "value": "{color.font.code.27.value}" },
+        "property-value": { "value": "{color.font.code.27.value}" }
+      },
+      "function": {
+        kernel: { value: "{color.font.code.8.value}" }
+      },
+      type: {
+        "property-name": {
+          default: { "value": "{color.font.code.26.value}" },
+          css: { value: "{color.font.primary.value}" }
+        },
+        vendored: { value: "{color.font.code.22.value}" }
+      }
+    },
+  }
+}

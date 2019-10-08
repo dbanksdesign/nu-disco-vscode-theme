@@ -1,0 +1,32 @@
+{
+  "peekView": {
+    "border": {}
+  },
+  
+  "peekViewEditor": {
+    "background": {},
+    "matchHighlightBackground": {},
+    "matchHighlightBorder": {}
+  },
+  
+  "peekViewResult": {
+    "background": { "value": "#ff0000" },
+    "fileForeground": {},
+    "lineForeground": {},
+    "matchHighlightBackground": {},
+    "selectionBackground": {},
+    "selectionForeground": {}
+  },
+  
+  "peekViewTitle": {
+    "background": { "value": "" }
+  },
+  
+  "peekViewTitleDescription": {
+    "foreground": { "value": "" }
+  },
+  
+  "peekViewTitleLabel": {
+    "foreground": { "value": "" }
+  }
+}

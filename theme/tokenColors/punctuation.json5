@@ -1,0 +1,60 @@
+{
+  "tokenColors": {
+    "punctuation": {
+      // default: { value: "{color.font.secondary.value}" },
+      accessor: {
+        default: { value: "{color.font.primary.value}" }
+      },
+      "definition": {
+        // default: { value: "{color.font.primary.value}" },
+        array: {
+          default: { value: "{color.font.primary.value}" }
+        },
+        block: {
+          default: { value: "{color.font.primary.value}" }
+        },
+        dictionary: {
+          default: { value: "{color.font.primary.value}" }
+        },
+        heading: { value: "{color.font.code.22.value}" },
+        list: { value: "{color.font.code.21.value}" },
+        parameters: {
+          default: { value: "{color.font.primary.value}" }
+        },
+        // "quote": { "value": "{color.font.code.23.value}" },
+        "string": {
+          default: { value: "{color.font.code.25.value}" },
+          "begin": {},
+          "end": {}
+        },
+        tag: {
+          default: { value: "{color.font.primary.value}" }
+        },
+        typeparameters: { value: "{color.font.primary.value}" },
+        "variable": {
+          
+        }
+      },
+      "section": {
+        default: { value: "{color.font.secondary.value}" },
+        "interpolation": {
+          "begin": {},
+          "end": {}
+        }
+      },
+      "separator": {
+        default: { value: "{color.font.primary.value}" },
+        array: { /* commas between array items */
+          // default: { value: "{color.font.secondary.value}" }
+        },
+        continuation: {},
+        dictionary: {
+          // default: { value: "{color.font.secondary.value}" }
+        }
+      },
+      "terminator": {
+        default: { value: "{color.font.tertiary.value}" },
+      }
+    },
+  }
+}

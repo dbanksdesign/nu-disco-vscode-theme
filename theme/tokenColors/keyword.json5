@@ -1,0 +1,36 @@
+{
+  "tokenColors": {
+    "keyword": {
+      "default": { "value": "{color.font.code.8.value}" },
+      "control": {
+        "default": { "value": "{color.font.code.8.value}" },
+        "conditional": {},
+        "export": {},
+        "import": {
+          "value": "{color.font.code.8.value}",
+          "fontStyle": "italic"
+        },
+        "from": {
+          "value": "{color.font.code.8.value}",
+          "fontStyle": "italic"
+        },
+        "flow": {
+          "value": "{color.font.code.8.value}"
+        }
+      },
+      "operator": {
+        "default": { "value": "{color.font.primary.value}" },
+        "arithmetic": {},
+        "assignment": {},
+        "bitwise": {},
+        "logical": {
+          "value": "{color.font.primary.value}"
+        },
+        "word": {}
+      },
+      "other": {
+        "unit": { "value": "{color.font.code.29.value}" }
+      }
+    },
+  }
+}

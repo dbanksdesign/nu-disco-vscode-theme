@@ -23,6 +23,7 @@
 To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
 https://code.visualstudio.com/api/references/theme-color
+https://www.sublimetext.com/docs/3/scope_naming.html
 
 ## Install your extension
 

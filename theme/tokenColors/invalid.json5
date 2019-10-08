@@ -1,0 +1,8 @@
+{
+  "tokenColors": {
+    "invalid": {
+      "illegal": {},
+      "deprecated": {}
+    },
+  }
+}

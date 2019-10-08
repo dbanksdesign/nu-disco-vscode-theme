@@ -1,4 +1,7 @@
 'use strict'
+/**
+ * This is a *foo* **bar** alsdkjf.
+ */
 class Sale {
   constructor(price) {
     ;[this.decoratorsList, this.price] = [[], price]
@@ -51,6 +54,8 @@ const options = {
 for (let i = 0; i < 10; i++) {
   continue;
 }
+
+if (foo || bar) {}
 
 if (true) { }
 

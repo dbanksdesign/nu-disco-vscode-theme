@@ -1,7 +1,10 @@
+// The Activity Bar is displayed either on the far left or right of the workbench
+// and allows fast switching between views of the Side Bar.
 {
   "activityBar": {
     "background": { "value": "{color.background.tertiary.value}" },
-    "dropBackground": { "value": "#0CABA6" },
+    // Drag and drop feedback color for the Activity Bar items
+    "dropBackground": { "value": "{color.core.teal.20.value}66" },
     "foreground": { "value": "{color.core.teal.40.value}CC" },
     "border": { "value": "#FFFFFF00" }
   },

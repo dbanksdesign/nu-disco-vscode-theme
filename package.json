@@ -7,7 +7,7 @@
         "vscode": "^1.38.0"
     },
     "scripts": {
-        "build": "style-dictionary build --config ./config.js",
+        "build": "node build.js",
         "watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'"
     },
     "categories": [
@@ -16,9 +16,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "Pascal Theme",
+                "label": "Pascal Dark",
                 "uiTheme": "vs-dark",
-                "path": "./dist/PascalTheme.color-theme.json"
+                "path": "./dist/PascalTheme-dark.color-theme.json"
+            },{
+                "label": "Pascal Light",
+                "uiTheme": "vs",
+                "path": "./dist/PascalTheme-light.color-theme.json"
             }
         ]
     },

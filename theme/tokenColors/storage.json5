@@ -1,0 +1,12 @@
+{
+  "tokenColors": {
+    "storage": {
+      default: { value: "{color.font.code.8.value}" },
+      "modifier": {},
+      type: {
+        default: { value: "{color.font.code.8.value}" },
+        function: { value: "{color.font.primary.value}" }
+      }
+    },
+  }
+}
