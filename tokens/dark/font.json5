@@ -6,7 +6,24 @@
       "tertiary": { "value": "#FFFFFF99" },
       "quarternary": { "value": "#FFFFFF66" },
       "quint": { "value": "#FFFFFF44" },
+      
       "active": { "value": "{color.core.teal.40.value}" },
+      "success": { "value": "{color.core.green2.40.value}" },
+      "danger": { "value": "{color.core.red.40.value}" },
+      "warning": { "value": "{color.core.orange.40.value}" },
+      "info": { "value": "{color.core.pink.40.value}" },
+      
+      "link": {
+        "primary": {
+          "active": { "value": "{color.core.teal.20.value}" },
+          "inactive": { "value": "{color.core.teal.20.value}CC" },
+        },
+        "secondary": {
+          "active": { "value": "{color.core.pink.20.value}" },
+          "inactive": { "value": "{color.core.pink.20.value}CC" },
+        }
+      },
+      
       "code": {
         "1": { "value": "{color.core.red.10.value}" },
         "2": { "value": "{color.core.orange.10.value}" },

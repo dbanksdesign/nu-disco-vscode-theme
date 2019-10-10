@@ -2,23 +2,53 @@
   "editor": {
     "background": { "value": "{color.background.primary.value}" },
     "foreground": { "value": "{color.font.primary.value}" },
-    "selectionBackground": { "value": "{color.core.teal.20.value}66" },
-    "selectionHighlightBackground": { "value": "{color.core.teal.20.value}33" },
-    "inactiveSelectionBackground": { "value": "{color.background.tertiary.value}" },
-    "wordHighlightBackground": { "value": "#32374D" },
-    "wordHighlightStrongBackground": { "value": "#2E3250" },
-    "findMatchBackground": { "value": "#5f7e9779" },
-    "findMatchHighlightBackground": { "value": "{color.core.purple.20.value}33" },
-    "findRangeHighlightBackground": { "value": null },
-    "hoverHighlightBackground": { "value": "{color.core.purple.20.value}33" },
+    
+    // Editor colors with "highlight" in the name refer to times when parts
+    // of the code are highlighted, but might not be *selected*. For example
+    // when you search in the file it will *highlight* all occurrances, but
+    // will only *select* one at a time.
+    
+    // This is the background of the selection you make with your cursor
+    // It might get overridden later depending on if the selection is a 
+    // wordHighlight or wordHighlightStrong
+    
+    // Selection background colors also apply to the sidebar selections,
+    // like the currently active file selection
+    "selectionBackground": { "value": "{color.background.selection.primary.active.value}" },
+    // When you select text, this is the background for *other* text that
+    // matches that selection
+    "selectionHighlightBackground": { "value": "{color.background.selection.secondary.inactive.value}" },
+    // When the selected text is not in the currently active window or pane
+    "inactiveSelectionBackground": { "value": "{color.background.selection.primary.inactive.value}" },
+    
+    // Word highlights are when you either set your cursor within a word,
+    // or select only that word
+    "wordHighlightBackground": { "value": "#ff9900CC" },
+    // If you highlight a word and it is special, like if it has a tip
+    "wordHighlightStrongBackground": { "value": "#ff0000CC" },
+    
+    // The current selected occurance of searched text
+    "findMatchBackground": { "value": "{color.background.highlight.secondary.active.value}" },
+    // All occurances of found text that are not the current selected one
+    "findMatchHighlightBackground": { "value": "{color.background.highlight.secondary.inactive.value}" },
+    "findRangeHighlightBackground": { "value": "{color.core.yellow.20.value}" },
+    
+    // Highlight below the word for which a hover is shown.
+    // Hover background only happens on non-selected and non-highlighted text
+    "hoverHighlightBackground": { "value": "{color.background.highlight.primary.inactive.value}" },
+    // Background of the line(s) the cursor is currently on
     "lineHighlightBackground": { "value": "{color.background.secondary.value}" },
-    "lineHighlightBorder": { "value": null },
-    "rangeHighlightBackground": { "value": "{color.core.purple.20.value}66" }
+    "lineHighlightBorder": {},
+    // When you do a search in the file and it highlights the line
+    // of the match you are on
+    "rangeHighlightBackground": { "value": "{color.background.tertiary.value}" }
   },
+  
   "editorLineNumber": {
     "foreground": { "value": "{color.font.tertiary.value}" },
     "activeForeground": { "value": "{color.core.teal.20.value}CC" }
   },
+  
   "editorCursor": {
     "foreground": { "value": "{color.core.teal.40.value}" }
   },
@@ -36,7 +66,7 @@
     "findMatchForeground": { "value": "{color.core.green.40.value}66" },
     "rangeHighlightForeground": { "value": "#0000ff" },
     "selectionHighlightForeground": { "value": "{color.core.purple.40.value}" },
-    "currentContentForeground": { "value": "#ff0000" },
+    "currentContentForeground": { "value": "#ffffff" },
     "incomingContentForeground": { "value": "#00ff00" },
     "commonContentForeground": { "value": "#0000ff" }
   },

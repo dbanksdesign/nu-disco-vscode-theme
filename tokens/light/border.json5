@@ -4,7 +4,11 @@
       "primary": { "value": "#FFFFFF66" },
       "secondary": { "value": "#FFFFFF33" },
       "tertiary": { "value": "#FFFFFF11" },
-      "active": { "value": "{color.core.teal.20.value}66" }
+      "active": { "value": "{color.core.teal.100.value}66" },
+      "success": { "value": "{color.core.green2.100.value}66" },
+      "danger": { "value": "{color.core.red.100.value}66" },
+      "warning": { "value": "{color.core.orange.100.value}66" },
+      "info": { "value": "{color.core.pink.100.value}66" },
     }
   }
 }

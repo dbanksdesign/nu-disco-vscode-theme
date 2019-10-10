@@ -4,7 +4,31 @@
       "primary": { "value": "{color.core.grey.100.value}" },
       "secondary": { "value": "{color.core.grey.90.value}" },
       "tertiary": { "value": "{color.core.grey.80.value}" },
-      "quarternary": { "value": "{color.core.grey.60.value}" }
+      "quarternary": { "value": "{color.core.grey.60.value}" },
+      "drop": { "value": "{color.core.teal.20.value}66" },
+      "badge": { "value": "{color.core.teal.100.value}" },
+      
+      "selection": {
+        "primary": {
+          "active": { "value": "{color.core.teal.20.value}99" },
+          "inactive": { "value": "{color.core.teal.20.value}33" },
+        },
+        "secondary": { 
+          "active": { "value": "{color.core.purple.20.value}99" },
+          "inactive": { "value": "{color.core.pink.20.value}33" },
+        }
+      },
+      
+      "highlight": {
+        "primary": {
+          "active": { "value": "{color.core.yellow.20.value}66" },
+          "inactive": { "value": "{color.core.yellow.20.value}33" },
+        },
+        "secondary": {
+          "active": { "value": "{color.core.purple.20.value}66" },
+          "inactive": { "value": "{color.core.purple.20.value}33" },
+        }
+      }
     }
   }
 }

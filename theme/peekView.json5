@@ -1,16 +1,18 @@
+// Peak View is an inline preview of code. You can open it
+// by clicking on the git diff borders in the gutter of the editor which brings up the current changes
 {
   "peekView": {
-    "border": {}
+    "border": { "value": "#ff0000" }
   },
   
   "peekViewEditor": {
-    "background": {},
+    "background": { "value": "#ff0000" },
     "matchHighlightBackground": {},
     "matchHighlightBorder": {}
   },
   
   "peekViewResult": {
-    "background": { "value": "#ff0000" },
+    "background": { "value": "#00ff00" },
     "fileForeground": {},
     "lineForeground": {},
     "matchHighlightBackground": {},
@@ -19,14 +21,14 @@
   },
   
   "peekViewTitle": {
-    "background": { "value": "" }
+    "background": { "value": "{color.background.tertiary.value}" }
   },
   
   "peekViewTitleDescription": {
-    "foreground": { "value": "" }
+    "foreground": { "value": "{color.font.primary.value}" }
   },
   
   "peekViewTitleLabel": {
-    "foreground": { "value": "" }
+    "foreground": { "value": "{color.font.tertiary.value}" }
   }
 }

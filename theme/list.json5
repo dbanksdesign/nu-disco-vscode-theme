@@ -1,22 +1,22 @@
 {
   "list": {
-    "activeSelectionBackground": { "value": "{color.core.purple.40.value}CC" },
+    "activeSelectionBackground": { "value": "{color.background.selection.secondary.active.value}" },
     "activeSelectionForeground": { "value": "{color.font.primary.value}" },
-    "invalidItemForeground": { "value": "#975f94" },
+    "invalidItemForeground": { "value": "#ff9900" },
     "dropBackground": { "value": "{color.core.teal.60.value}99" },
-    "focusBackground": { "value": "#010d18" },
+    "focusBackground": { "value": "{color.background.selection.primary.active.value}" },
     "focusForeground": { "value": "{color.font.primary.value}" },
     "highlightForeground": { "value": "{color.font.primary.value}" },
-    "hoverBackground": { "value": "{color.core.purple.40.value}66" },
+    "hoverBackground": { "value": "{color.background.selection.primary.inactive.value}" },
     "hoverForeground": { "value": "{color.font.primary.value}" },
-    "inactiveSelectionBackground": { "value": "{color.core.purple.40.value}99" },
+    "inactiveSelectionBackground": { "value": "{color.background.selection.primary.inactive.value}" },
     "inactiveSelectionForeground": { "value": "{color.font.primary.value}" },
-    "errorForeground": { "value": "{color.core.red.40.value}" },
-    "warningForeground": { "value": "{color.core.orange.40.value}" }
+    "errorForeground": { "value": "{color.font.danger.value}" },
+    "warningForeground": { "value": "{color.font.warning.value}" }
   },
   "listFilterWidget": {
     "background": { "value": "{color.background.quarternary.value}" },
     "outline": { "value": "#ffffff00" },
-    "noMatchesOutline": { "value": "{color.core.red.40.value}CC" }
+    "noMatchesOutline": { "value": "{color.border.danger.value}" }
   }
 }

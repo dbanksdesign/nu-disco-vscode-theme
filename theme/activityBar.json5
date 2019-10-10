@@ -4,12 +4,12 @@
   "activityBar": {
     "background": { "value": "{color.background.tertiary.value}" },
     // Drag and drop feedback color for the Activity Bar items
-    "dropBackground": { "value": "{color.core.teal.20.value}66" },
-    "foreground": { "value": "{color.core.teal.40.value}CC" },
+    "dropBackground": { "value": "{color.background.drop.value}" },
+    "foreground": { "value": "{color.font.link.secondary.active.value}" },
     "border": { "value": "#FFFFFF00" }
   },
   "activityBarBadge": {
-    "background": { "value": "{color.core.teal.100.value}" },
+    "background": { "value": "{color.background.badge.value}" },
     "foreground": { "value": "{color.font.primary.value}" }
   }
 }

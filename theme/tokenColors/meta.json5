@@ -3,10 +3,10 @@
     "meta": {
       "brace": {
         "round": { /* () */
-          "default": { "value": "{color.font.secondary.value}" }
+          "default": { "value": "{color.font.primary.value}" }
         },
         "square": { /* [] */
-          "default": { "value": "{color.font.secondary.value}" },
+          "default": { "value": "{color.font.primary.value}" },
         }
       },
       "class": {

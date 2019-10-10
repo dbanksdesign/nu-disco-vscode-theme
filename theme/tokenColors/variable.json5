@@ -1,18 +1,18 @@
 {
   "tokenColors": {
-    variable: {
-      default: { value: "{color.font.code.26.value}" },
-      language: {
-        super: {
-          value: "{color.font.code.5.value}",
-          fontStyle: "italic"
+    "variable": {
+      "default": { "value": "{color.font.code.26.value}" },
+      "language": {
+        "super": {
+          "value": "{color.font.code.5.value}",
+          "fontStyle": "italic"
         },
-        this: { value: "{color.font.code.3.value}" }
+        "this": { "value": "{color.font.code.3.value}" }
       },
-      other: {
-        default: { "value": "{color.font.code.26.value}" },
-        constant: {
-          default: { "value": "{color.font.code.26.value}" }
+      "other": {
+        "default": { "value": "{color.font.code.26.value}" },
+        "constant": {
+          "default": { "value": "{color.font.code.26.value}" }
         },
         "readwrite": {
           "alias": {
@@ -20,7 +20,7 @@
           }
         }
       },
-      parameter: {}
+      "parameter": {}
     }
   }
 }
