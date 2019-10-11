@@ -1,17 +1,35 @@
 {
     "name": "nu-disco",
     "displayName": "Nu Disco Theme",
-    "description": "",
-    "version": "0.0.1",
+    "description": "A VS Code theme that boogies.",
+    "publisher": "dbanksdesign",
+    "license": "MIT",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dbanksdesign/nu-disco-vscode-theme"
+    },
     "engines": {
         "vscode": "^1.38.0"
     },
     "scripts": {
         "build": "node build.js",
-        "watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'"
+        "watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'",
+        "publish": "vsce publish"
     },
+    "galleryBanner": {
+        "color": "#0C001F",
+        "theme": "dark"
+    },
+    "icon": "images/icon.png",
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "Nu Disco",
+        "Dark Theme",
+        "Light Theme",
+        "Style Dictionary"
     ],
     "contributes": {
         "themes": [
