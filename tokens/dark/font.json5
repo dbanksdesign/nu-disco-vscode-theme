@@ -6,6 +6,7 @@
       "tertiary": { "value": "#FFFFFF99" },
       "quarternary": { "value": "#FFFFFF66" },
       "quint": { "value": "#FFFFFF44" },
+      "inverse": { "value": "{color.background.primary.value}" },
       
       "active": { "value": "{color.core.teal.40.value}" },
       "success": { "value": "{color.core.green2.40.value}" },

@@ -6,13 +6,19 @@
       "tertiary": { "value": "{color.core.grey.80.value}" },
       "quarternary": { "value": "{color.core.grey.60.value}" },
       "drop": { "value": "{color.core.teal.20.value}66" },
-      "badge": { "value": "{color.core.pink.100.value}" },
-      // "debug": { "value": "{color.core.teal.120.value}" },
+      "badge": { "value": "{color.core.teal.100.value}" },
+      "debug": { "value": "{color.core.blue.100.value}" },
+      
+      "danger": { "value": "{color.core.red.40.value}" },
+      "warning": { "value": "{color.core.orange.40.value}" },
+      "info": { "value": "{color.core.teal.40.value}" },
       
       "interactive": {
         "base": { "value": "{color.core.teal.100.value}" },
         "hover": { "value": "{color.core.teal.120.value}" },
       },
+      
+      "drop": { "value": "{color.background.selection.secondary.active.value}" },
       
       "selection": {
         "primary": {

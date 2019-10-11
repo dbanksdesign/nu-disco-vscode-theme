@@ -1,6 +1,6 @@
 {
-    "name": "pascal-vs-code-theme",
-    "displayName": "Pascal Theme",
+    "name": "nu-disco",
+    "displayName": "Nu Disco Theme",
     "description": "",
     "version": "0.0.1",
     "engines": {
@@ -16,13 +16,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "Pascal Dark",
+                "label": "Nu Disco Dark",
                 "uiTheme": "vs-dark",
-                "path": "./dist/PascalTheme-dark.color-theme.json"
+                "path": "./dist/nu-disco-dark.color-theme.json"
             },{
-                "label": "Pascal Light",
+                "label": "Nu Disco Light",
                 "uiTheme": "vs",
-                "path": "./dist/PascalTheme-light.color-theme.json"
+                "path": "./dist/nu-disco-light.color-theme.json"
             }
         ]
     },

@@ -4,7 +4,7 @@
     "foreground": { "value": "{color.font.primary.value}" },
     "border": { "value": "#FFFFFF00" },
     
-    "debuggingBackground": { "value": "{color.background.badge.value}" },
+    "debuggingBackground": { "value": "{color.background.debug.value}" },
     "debuggingForeground": { "value": "{color.font.primary.value" },
     "debuggingBorder": { "value": "#FFFFFF00" },
     
@@ -21,7 +21,7 @@
     "prominentForeground": { "value": "{color.font.primary.value}" },
     "prominentHoverBackground": {  },
     
-    "remoteBackground": { "value": "{color.background.badge.value}" },
+    "remoteBackground": { "value": "{color.background.interactive.base.value}" },
     "remoteForeground": { "value": "{color.font.primary.value}" }
   }
 }

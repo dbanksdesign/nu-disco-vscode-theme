@@ -28,9 +28,11 @@
     "wordHighlightStrongBackground": { "value": "{color.background.highlight.secondary.inactive.value}" },
     
     // The current selected occurance of searched text
-    "findMatchBackground": { "value": "{color.background.highlight.secondary.active.value}" },
+    "findMatchBackground": { "value": "{color.background.highlight.primary.active.value}" },
     // All occurances of found text that are not the current selected one
-    "findMatchHighlightBackground": { "value": "{color.background.highlight.secondary.inactive.value}" },
+    // this also applies to matches in the sidebar
+    // like searching in the file explorer
+    "findMatchHighlightBackground": { "value": "{color.background.highlight.primary.inactive.value}" },
     
     // When you "find in selection" this is the background for the selection
     "findRangeHighlightBackground": {},

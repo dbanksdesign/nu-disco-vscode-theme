@@ -1,5 +1,6 @@
 {
   "terminal": {
+    // To test these colors run `./scripts/colors`
     "ansiWhite": { "value": "{color.font.primary.value}" },
     "ansiBlack": { "value": "{color.core.grey.90.value}" },
     "ansiBlue": { "value": "{color.core.blue.40.value}" },
@@ -19,7 +20,7 @@
     "selectionBackground": { "value": "{color.core.teal.20.value}66" }
   },
   "terminalCursor": {
-    "background": { "value": "{color.core.teal.20.value}66" },
-    "foreground": { "value": "{color.core.teal.20.value}66" }
+    "background": { "value": "{color.background.selection.primary.active.value}" },
+    "foreground": { "value": "{color.background.selection.primary.active.value}" }
   }
 }

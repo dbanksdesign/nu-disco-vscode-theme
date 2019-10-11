@@ -2,21 +2,30 @@
   "input": {
     "background": { "value": "{color.background.tertiary.value}" },
     "border": { "value": "#ffffff00" },
-    "foreground": { "value": "#ffffffcc" },
+    "foreground": { "value": "{color.font.primary.value}" },
     "placeholderForeground": { "value": "{color.font.tertiary.value}" }
   },
+  
   "inputValidation": {
-    "errorBackground": { "value": "{color.core.red.40.value}" },
-    "errorForeground": { "value": "{color.core.grey.100.value}" },
-    "errorBorder": { "value": "{color.core.red.40.value}" },
-    "infoBackground": { "value": "{color.core.teal.40.value}" },
-    "infoForeground": { "value": "{color.core.grey.100.value}" },
-    "infoBorder": { "value": "{color.core.teal.40.value}" },
-    "warningBackground": { "value": "{color.core.orange.40.value}" },
-    "warningForeground": { "value": "{color.core.grey.100.value}" },
-    "warningBorder": { "value": "{color.core.orange.40.value}" }
+    "errorBackground": { "value": "{color.background.danger.value}" },
+    "errorForeground": { "value": "{color.font.inverse.value}" },
+    "errorBorder": { "value": "{color.border.danger.value}" },
+    
+    // You can trigger this by setting git.inputValidation to "always"
+    "infoBackground": { "value": "{color.background.info.value}" },
+    "infoForeground": { "value": "{color.font.inverse.value}" },
+    "infoBorder": { "value": "{color.background.info.value}" },
+    
+    // you can trigger this by writing a commit message in the source control panel
+    // over 50 characters long
+    "warningBackground": { "value": "{color.background.warning.value}" },
+    "warningForeground": { "value": "{color.font.inverse.value}" },
+    "warningBorder": { "value": "{color.border.warning.value}" }
   },
+  
+  // For example the buttons inside the search and search in file inputs
   "inputOption": {
-    "activeBorder": { "value": "#ffffff" }
+    "activeBorder": { "value": "#FFFFFF00" },
+    "activeBackground": { "value": "{color.background.interactive.base.value}" }
   }
 }

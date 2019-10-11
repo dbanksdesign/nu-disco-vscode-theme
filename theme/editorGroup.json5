@@ -1,11 +1,11 @@
 {
   "editorGroup": {
     "emptyBackground": { "value": "{color.background.secondary.value}" },
-    "border": { "value": "#011627" },
-    "dropBackground": { "value": "#7e57c273" }
+    "border": { "value": "{color.border.primary.value}" },
+    "dropBackground": { "value": "{color.background.drop.value}" }
   },
   "editorGroupHeader": {
-    "noTabsBackground": { "value": "{color.background.secondary.value}" },
+    "noTabsBackground": { "value": "{color.background.primary.value}" },
     "tabsBackground": { "value": "{color.background.secondary.value}" },
     "tabsBorder": { "value": "#0000" }
   }

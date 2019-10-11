@@ -1,3 +1,4 @@
+// The titlebar is the top bar, but only when it is not in fullscreen mode
 {
   "titleBar": {
     "border": { "value": "#ffffff00" },

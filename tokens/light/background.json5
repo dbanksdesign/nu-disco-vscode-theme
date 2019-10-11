@@ -7,12 +7,18 @@
       "quarternary": { "value": "{color.core.grey.20.value}" },
       "drop": { "value": "{color.core.teal.100.value}66" },
       "badge": { "value": "{color.core.teal.20.value}" },
-      // "debug": { "value": "{color.core.teal.120.value}" },
+      "debug": { "value": "{color.core.blue.20.value}" },
+      
+      "danger": { "value": "{color.core.red.20.value}66" },
+      "warning": { "value": "{color.core.orange.20.value}66" },
+      "info": { "value": "{color.core.teal.20.value}66" },
       
       "interactive": {
         "base": { "value": "{color.core.teal.20.value}" },
         "hover": { "value": "{color.core.teal.40.value}" },
       },
+      
+      "drop": { "value": "{color.background.selection.secondary.active.value}" },
       
       "selection": {
         "primary": {

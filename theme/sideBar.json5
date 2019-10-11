@@ -3,14 +3,14 @@
     "background": { "value": "{color.background.secondary.value}" },
     "foreground": { "value": "{color.font.secondary.value}" },
     "border": { "value": "#FFFFFF00" },
-    "dropBackground": { "value": "{color.core.pink.20.value}66" }
+    "dropBackground": { "value": "{color.background.selection.primary.active.value}" }
   },
   "sideBarSectionHeader": {
     "background": { "value": "{color.background.secondary.value}" },
     "foreground": { "value": "{color.font.tertiary.value}" },
-    "border": { "value": "#FFFFFF00" }
+    "border": { "value": "{color.border.tertiary.value}" }
   },
   "sideBarTitle": {
-    "foreground": { "value": "{color.font.info.value}" }
+    "foreground": { "value": "{color.font.primary.value}" }
   }
 }

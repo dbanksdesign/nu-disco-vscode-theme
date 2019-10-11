@@ -2,7 +2,7 @@ const StyleDictionary = require('style-dictionary');
 
 const format = function(dictionary, config) {
   const theme = {
-    "name": `Pascal ${config.themeType}`,
+    "name": `Nu Disco ${config.themeType}`,
     "type": config.themeType,
     "colors": {},
   }
@@ -62,7 +62,7 @@ themeTypes.forEach((themeType) => {
         themeType: themeType,
         transforms: [`attribute/cti`,`nameTransform`,`nameSyntaxTokenTransform`],
         files: [{
-          destination: `PascalTheme-${themeType}.color-theme.json`,
+          destination: `nu-disco-${themeType}.color-theme.json`,
           format: `vsCodeTheme`
         }]
       }
