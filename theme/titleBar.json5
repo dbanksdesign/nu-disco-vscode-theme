@@ -1,9 +1,9 @@
 {
   "titleBar": {
     "border": { "value": "#ffffff00" },
-    "activeBackground": { "value": "{color.core.teal.100.value}" },
+    "activeBackground": { "value": "{color.background.primary.value}" },
     "activeForeground": { "value": "{color.font.primary.value}" },
-    "inactiveBackground": { "value": "{color.background.tertiary.value}" },
+    "inactiveBackground": { "value": "{color.background.secondary.value}" },
     "inactiveForeground": { "value": "{color.font.secondary.value}" }
   }
 }

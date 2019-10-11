@@ -1,7 +1,7 @@
 {
   "pickerGroup": {
     "foreground": { "value": "{color.background.tertiary.value}" },
-    "border": { "value": "{color.core.teal.40.value}" }
+    "border": { "value": "{color.border.primary.value}" }
   },
   "quickInput": {
     "foreground": { "value": "{color.font.primary.value}" },

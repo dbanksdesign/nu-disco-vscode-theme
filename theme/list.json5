@@ -1,15 +1,15 @@
 {
   "list": {
-    "activeSelectionBackground": { "value": "{color.background.selection.secondary.active.value}" },
+    "activeSelectionBackground": { "value": "{color.background.selection.tertiary.active.value}" },
     "activeSelectionForeground": { "value": "{color.font.primary.value}" },
     "invalidItemForeground": { "value": "#ff9900" },
     "dropBackground": { "value": "{color.core.teal.60.value}99" },
-    "focusBackground": { "value": "{color.background.selection.primary.active.value}" },
+    "focusBackground": { "value": "{color.background.selection.tertiary.active.value}" },
     "focusForeground": { "value": "{color.font.primary.value}" },
     "highlightForeground": { "value": "{color.font.primary.value}" },
-    "hoverBackground": { "value": "{color.background.selection.primary.inactive.value}" },
+    "hoverBackground": { "value": "{color.background.selection.tertiary.inactive.value}" },
     "hoverForeground": { "value": "{color.font.primary.value}" },
-    "inactiveSelectionBackground": { "value": "{color.background.selection.primary.inactive.value}" },
+    "inactiveSelectionBackground": { "value": "{color.background.selection.tertiary.inactive.value}" },
     "inactiveSelectionForeground": { "value": "{color.font.primary.value}" },
     "errorForeground": { "value": "{color.font.danger.value}" },
     "warningForeground": { "value": "{color.font.warning.value}" }

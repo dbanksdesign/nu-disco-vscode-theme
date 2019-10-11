@@ -11,7 +11,7 @@
   },
   "notifications": {
     "background": { "value": "{color.background.tertiary.value}" },
-    "foreground": { "value": "{color.font.code.22.value}" },
+    "foreground": { "value": "{color.font.primary.value}" },
     "border": { "value": "#FFFFFF00" }
   }
 }

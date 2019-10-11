@@ -12,33 +12,37 @@
     // It might get overridden later depending on if the selection is a 
     // wordHighlight or wordHighlightStrong
     
-    // Selection background colors also apply to the sidebar selections,
-    // like the currently active file selection
     "selectionBackground": { "value": "{color.background.selection.primary.active.value}" },
     // When you select text, this is the background for *other* text that
     // matches that selection
     "selectionHighlightBackground": { "value": "{color.background.selection.secondary.inactive.value}" },
     // When the selected text is not in the currently active window or pane
+    // This also happens in the sidebar for the currently open file when
+    // the cursor is not in the file tree 
     "inactiveSelectionBackground": { "value": "{color.background.selection.primary.inactive.value}" },
     
     // Word highlights are when you either set your cursor within a word,
     // or select only that word
-    "wordHighlightBackground": { "value": "#ff9900CC" },
+    "wordHighlightBackground": { "value": "{color.background.highlight.primary.inactive.value}" },
     // If you highlight a word and it is special, like if it has a tip
-    "wordHighlightStrongBackground": { "value": "#ff0000CC" },
+    "wordHighlightStrongBackground": { "value": "{color.background.highlight.secondary.inactive.value}" },
     
     // The current selected occurance of searched text
     "findMatchBackground": { "value": "{color.background.highlight.secondary.active.value}" },
     // All occurances of found text that are not the current selected one
     "findMatchHighlightBackground": { "value": "{color.background.highlight.secondary.inactive.value}" },
-    "findRangeHighlightBackground": { "value": "{color.core.yellow.20.value}" },
+    
+    // When you "find in selection" this is the background for the selection
+    "findRangeHighlightBackground": {},
     
     // Highlight below the word for which a hover is shown.
     // Hover background only happens on non-selected and non-highlighted text
-    "hoverHighlightBackground": { "value": "{color.background.highlight.primary.inactive.value}" },
+    "hoverHighlightBackground": { "value": "{color.background.tertiary.value}" },
+    
     // Background of the line(s) the cursor is currently on
     "lineHighlightBackground": { "value": "{color.background.secondary.value}" },
     "lineHighlightBorder": {},
+    
     // When you do a search in the file and it highlights the line
     // of the match you are on
     "rangeHighlightBackground": { "value": "{color.background.tertiary.value}" }
@@ -46,14 +50,14 @@
   
   "editorLineNumber": {
     "foreground": { "value": "{color.font.tertiary.value}" },
-    "activeForeground": { "value": "{color.core.teal.20.value}CC" }
+    "activeForeground": { "value": "{color.font.active.value}" }
   },
   
   "editorCursor": {
     "foreground": { "value": "{color.core.teal.40.value}" }
   },
   "editorLink": {
-    "activeForeground": "{color.core.pink.40.value}"
+    "activeForeground": "{color.font.link.primary.inactive.value}"
   },
   "editorGutter": {
     "background": { "value": "{color.background.primary.value}" },
@@ -70,29 +74,33 @@
     "incomingContentForeground": { "value": "#00ff00" },
     "commonContentForeground": { "value": "#0000ff" }
   },
+  
+  // The squiggly lines when there is an error
   "editorError": {
-    "foreground": { "value": "{color.core.red.40.value}" },
-    "border": { "value": null }
+    "foreground": { "value": "{color.font.danger.value}" },
+    "border": {}
   },
+  // The squiggly lines when there is an warning
   "editorWarning": {
-    "foreground": { "value": "{color.core.orange.40.value}" },
-    "border": { "value": null }
+    "foreground": { "value": "{color.font.warning.value}" },
+    "border": {}
   },
   "editorInfo": {
-    "foreground": { "value": "{color.core.teal.40.value}" },
-    "border": { "value": null }
+    "foreground": { "value": "{color.font.info.value}" },
+    "border": {  }
   },
   "editorHint": {
     "foreground": { "value": "{color.core.purple.40.value}" },
     "border": { "value": "#FFFFFF00" }
   },
   "editorBracketMatch": {
-    "background": { "value": "{color.core.teal.40.value}33" },
+    "background": { "value": "{color.background.highlight.secondary.inactive.value}" },
     "border": { "value": "#FFFFFF00" }
   },
   "editorWhitespace": {
     "foreground": { "value": "{color.font.quint.value}" }
   },
+  // Vertical line for indents
   "editorIndentGuide": {
     "background": { "value": "{color.border.secondary.value}" },
     "activeBackground": { "value": "{color.border.active.value}" }
@@ -103,7 +111,9 @@
   "editorCodeLens": {
     "foreground": { "value": "{color.core.teal.40.value}CC" }
   },
+  // Unused code
   "editorUnnecessaryCode": {
+    // Only sets the opacity, not the actual color
     "opacity": { "value": "#000000CC" },
     "border": { "value": "{color.border.primary.value}" }
   }

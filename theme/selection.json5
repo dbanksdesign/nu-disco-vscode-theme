@@ -1,5 +1,7 @@
 {
+  // Selection background for elements not in the editor, like selecting
+  // text in an input
   "selection": {
-    "background": { "value": "{color.core.teal.20.value}66" }
+    "background": { "value": "{color.background.selection.primary.active.value}" }
   }
 }

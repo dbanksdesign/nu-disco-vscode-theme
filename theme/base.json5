@@ -1,4 +1,9 @@
 {
   "focusBorder": { "value": "{color.border.tertiary.value}" },
-  "foreground": { "value": "{color.font.primary.value}" }
+  "foreground": { "value": "{color.font.primary.value}" },
+  "descriptionForeground": { "value": "{color.font.secondary.value}" },
+  "errorForeground": { "value": "{color.font.danger.value}" },
+  "icon": {
+    "foreground": { "value": "{color.font.primary.value}" },
+  }
 }

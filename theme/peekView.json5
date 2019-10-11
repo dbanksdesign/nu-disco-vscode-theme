@@ -1,22 +1,24 @@
 // Peak View is an inline preview of code. You can open it
 // by clicking on the git diff borders in the gutter of the editor which brings up the current changes
 {
+  // Right click on a function/variable and click on peek view in the context menu
   "peekView": {
-    "border": { "value": "#ff0000" }
+    "border": { "value": "{color.border.primary.value}" }
   },
   
   "peekViewEditor": {
-    "background": { "value": "#ff0000" },
-    "matchHighlightBackground": {},
+    "background": { "value": "{color.background.primary.value}" },
+    "matchHighlightBackground": { "value": "{color.background.quarternary.value}" },
     "matchHighlightBorder": {}
   },
   
+  // 
   "peekViewResult": {
-    "background": { "value": "#00ff00" },
-    "fileForeground": {},
-    "lineForeground": {},
-    "matchHighlightBackground": {},
-    "selectionBackground": {},
+    "background": { "value": "{color.background.secondary.value}" },
+    "fileForeground": { "value": "{color.font.link.primary.active.value}" },
+    "lineForeground": { "value": "{color.font.primary.value}" },
+    "matchHighlightBackground": { "value": "{editor.findMatchHighlightBackground}" },
+    "selectionBackground": { "value": "{editor.findMatchBackground}" },
     "selectionForeground": {}
   },
   

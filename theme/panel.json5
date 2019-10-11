@@ -2,10 +2,10 @@
   "panel": {
     "border": { "value": "{color.border.primary.value}" },
     "background": { "value": "{color.background.tertiary.value}" },
-    "dropBackground": { "value": "{color.background.secondary.value}" }
+    "dropBackground": { "value": "{color.background.drop.value}" }
   },
   "panelTitle": {
-    "activeBorder": { "value": "{color.core.teal.80.value}" },
+    "activeBorder": { "value": "{color.border.active.value}" },
     "activeForeground": { "value": "{color.font.primary.value}" },
     "inactiveForeground": { "value": "{color.font.secondary.value}" }
   }

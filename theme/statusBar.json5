@@ -1,19 +1,27 @@
 {
   "statusBar": {
-    "background": { "value": "{color.background.tertiary.value}" },
-    "foreground": { "value": "{color.font.secondary.value}" },
+    "background": { "value": "{color.background.quarternary.value}" },
+    "foreground": { "value": "{color.font.primary.value}" },
     "border": { "value": "#FFFFFF00" },
-    "debuggingBackground": { "value": "{color.core.teal.100.value}" },
+    
+    "debuggingBackground": { "value": "{color.background.badge.value}" },
     "debuggingForeground": { "value": "{color.font.primary.value" },
-    "debuggingBorder": { "value": "#1F2330" },
-    "noFolderForeground": { "value": null },
-    "noFolderBackground": { "value": "#011627" },
-    "noFolderBorder": { "value": "#25293A" }
+    "debuggingBorder": { "value": "#FFFFFF00" },
+    
+    "noFolderBackground": { "value": "{color.background.tertiary.value}" },
+    "noFolderForeground": { "value": "{color.font.primary.value" },
+    "noFolderBorder": { "value": "#FFFFFF00" }
   },
+  
   "statusBarItem": {
-    "activeBackground": { "value": "{color.core.teal.120.value}" },
-    "hoverBackground": { "value": "{color.core.teal.120.value}" },
-    "prominentBackground": { "value": null },
-    "prominentHoverBackground": { "value": null }
+    "activeBackground": { "value": "{color.background.selection.secondary.active.value}" },
+    "hoverBackground": { "value": "{color.background.selection.secondary.inactive.value}" },
+    
+    "prominentBackground": { "value": "{color.background.badge.value}" },
+    "prominentForeground": { "value": "{color.font.primary.value}" },
+    "prominentHoverBackground": {  },
+    
+    "remoteBackground": { "value": "{color.background.badge.value}" },
+    "remoteForeground": { "value": "{color.font.primary.value}" }
   }
 }

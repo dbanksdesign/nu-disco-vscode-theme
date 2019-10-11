@@ -1,0 +1,6 @@
+{
+  "minimap": {
+    "findMatchHighlight": { "value": "{editor.findMatchBackground}" },
+    "selectionHighlight": { "value": "{editor.selectionBackground}" }
+  }
+}

@@ -2,14 +2,14 @@
   "menu": {
     "foreground": { "value": "#ffffff" },
     "background": { "value": "{color.background.tertiary.value}" },
-    "selectionForeground": {},
+    "selectionForeground": { "value": "#f90" },
     "selectionBackground": {},
     "selectionBorder": {},
     "separatorBackground": {},
     "border": {}
   },
   "menubar": {
-    "selectionForeground": {},
+    "selectionForeground": { "value": "#f90" },
     "selectionBackground": {},
     "selectionBorder": {}
   }

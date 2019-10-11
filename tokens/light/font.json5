@@ -16,7 +16,8 @@
       "link": {
         "primary": {
           "active": { "value": "{color.core.teal.80.value}" },
-          "inactive": { "value": "{color.core.teal.80.value}" },
+          "hover": { "value": "color.core.teal.100.value}" },
+          "inactive": { "value": "{color.core.teal.80.value}CC" },
         },
         "secondary": {
           "active": { "value": "{color.core.teal.80.value}CC" },

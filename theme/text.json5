@@ -1,14 +1,14 @@
 {
   "textBlockQuote": {
-    "background": {},
-    "border": {}
+    "background": { "value": "#ff0000" },
+    "border": { "value": "#00ff00" }
   },
   "textCodeBlock": {
     "background": { "value": "{color.background.primary.value}" }
   },
   "textLink": {
-    "activeForeground": { "value": "{color.core.pink.60.value}" },
-    "foreground": { "value": "{color.core.teal.60.value}" }
+    "activeForeground": { "value": "{color.font.link.primary.active.value}" },
+    "foreground": { "value": "{color.font.link.primary.inactive.value}" }
   },
   "textPreformat": {
     "foreground": { "value": "{color.font.secondary.value}" }
