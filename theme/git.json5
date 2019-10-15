@@ -1,10 +1,10 @@
 {
   "gitDecoration": {
     "addedResourceForeground": { "value": "{color.font.success.value}" },
-    "modifiedResourceForeground": { "value": "{color.font.active.value}" },
+    "modifiedResourceForeground": { "value": "{color.font.info.value}" },
     "deletedResourceForeground": { "value": "{color.font.danger.value}" },
     "untrackedResourceForeground": { "value": "{color.font.warning.value}" },
     "ignoredResourceForeground": { "value": "{color.font.tertiary.value}" },
-    "conflictingResourceForeground": { "value": "{color.font.info.value}" }
+    "conflictingResourceForeground": { "value": "{color.font.active.value}" }
   }
 }

@@ -9,13 +9,14 @@
       "badge": { "value": "{color.core.teal.100.value}" },
       "debug": { "value": "{color.core.blue.100.value}" },
       
-      "danger": { "value": "{color.core.red.40.value}" },
-      "warning": { "value": "{color.core.orange.40.value}" },
-      "info": { "value": "{color.core.teal.40.value}" },
+      "danger": { "value": "{color.core.red.20.value}" },
+      "warning": { "value": "{color.core.orange.20.value}" },
+      "success": { "value": "{color.core.green.20.value}" },
+      "info": { "value": "{color.core.teal.20.value}" },
       
       "interactive": {
-        "base": { "value": "{color.core.teal.100.value}" },
-        "hover": { "value": "{color.core.teal.120.value}" },
+        "base": { "value": "{color.core.pink.40.value}66" },
+        "hover": { "value": "{color.core.pink.40.value}99" },
       },
       
       "drop": { "value": "{color.background.selection.secondary.active.value}" },
@@ -23,26 +24,26 @@
       "selection": {
         "primary": {
           "active": { "value": "{color.core.pink.20.value}66" },
-          "inactive": { "value": "{color.core.pink.20.value}33" },
+          "inactive": { "value": "{color.core.pink.20.value}44" },
         },
         "secondary": {
           "active": { "value": "{color.core.teal.20.value}66" },
-          "inactive": { "value": "{color.core.teal.20.value}33" },
+          "inactive": { "value": "{color.core.teal.20.value}44" },
         },
         "tertiary": {
           "active": { "value": "{color.core.purple.20.value}66" },
-          "inactive": { "value": "{color.core.purple.20.value}33" },
+          "inactive": { "value": "{color.core.purple.20.value}44" },
         },
       },
       
       "highlight": {
         "primary": {
           "active": { "value": "{color.core.orange.20.value}66" },
-          "inactive": { "value": "{color.core.orange.20.value}33" },
+          "inactive": { "value": "{color.core.orange.20.value}44" },
         },
         "secondary": {
           "active": { "value": "{color.core.blue.20.value}66" },
-          "inactive": { "value": "{color.core.blue.20.value}33" },
+          "inactive": { "value": "{color.core.blue.20.value}44" },
         }
       }
     }

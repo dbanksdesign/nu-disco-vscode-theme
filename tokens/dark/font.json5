@@ -8,11 +8,11 @@
       "quint": { "value": "#FFFFFF44" },
       "inverse": { "value": "{color.background.primary.value}" },
       
-      "active": { "value": "{color.core.teal.40.value}" },
-      "success": { "value": "{color.core.green2.40.value}" },
+      "active": { "value": "{color.core.pink.40.value}" },
+      "success": { "value": "{color.core.green.40.value}" },
       "danger": { "value": "{color.core.red.40.value}" },
       "warning": { "value": "{color.core.orange.40.value}" },
-      "info": { "value": "{color.core.pink.40.value}" },
+      "info": { "value": "{color.core.teal.40.value}" },
       
       "link": {
         "primary": {
@@ -30,7 +30,7 @@
         "2": { "value": "{color.core.orange.10.value}" },
         "3": { "value": "{color.core.yellow.10.value}" },
         "4": { "value": "{color.core.lime.10.value}" },
-        "5": { "value": "{color.core.green2.10.value}" },
+        "5": { "value": "{color.core.green.10.value}" },
         "6": { "value": "{color.core.teal.10.value}" },
         "7": { "value": "{color.core.blue.10.value}" },
         "8": { "value": "{color.core.purple.10.value}" },
@@ -40,7 +40,7 @@
         "22": { "value": "{color.core.orange.20.value}" },
         "23": { "value": "{color.core.yellow.20.value}" },
         "24": { "value": "{color.core.lime.20.value}" },
-        "25": { "value": "{color.core.green2.20.value}" },
+        "25": { "value": "{color.core.green.20.value}" },
         "26": { "value": "{color.core.teal.20.value}" },
         "27": { "value": "{color.core.blue.20.value}" },
         "28": { "value": "{color.core.purple.20.value}" },

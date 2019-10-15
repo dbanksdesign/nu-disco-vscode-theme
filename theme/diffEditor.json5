@@ -1,6 +1,6 @@
 {
   "diffEditor": {
-    "insertedTextBackground": { "value": "{color.core.green2.20.value}33" },
+    "insertedTextBackground": { "value": "{color.core.green.20.value}33" },
     "insertedTextBorder": {},
     "removedTextBackground": { "value": "{color.core.red.20.value}33" },
     "removedTextBorder": {},

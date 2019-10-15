@@ -17,8 +17,8 @@
     "background": { "value": "{color.background.secondary.value}" },
     "fileForeground": { "value": "{color.font.link.primary.active.value}" },
     "lineForeground": { "value": "{color.font.primary.value}" },
-    "matchHighlightBackground": { "value": "{editor.findMatchHighlightBackground}" },
-    "selectionBackground": { "value": "{editor.findMatchBackground}" },
+    "matchHighlightBackground": { "value": "{editor.findMatchHighlightBackground.value}" },
+    "selectionBackground": { "value": "{editor.findMatchBackground.value}" },
     "selectionForeground": {}
   },
   

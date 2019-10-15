@@ -14,7 +14,7 @@
     // You can trigger this by setting git.inputValidation to "always"
     "infoBackground": { "value": "{color.background.info.value}" },
     "infoForeground": { "value": "{color.font.inverse.value}" },
-    "infoBorder": { "value": "{color.background.info.value}" },
+    "infoBorder": { "value": "{color.border.info.value}" },
     
     // you can trigger this by writing a commit message in the source control panel
     // over 50 characters long

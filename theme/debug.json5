@@ -1,9 +1,9 @@
 {
   "debugExceptionWidget": {
-    "background": { "value": "#f90" },
+    "background": {},
     "border": {}
   },
   "debugToolBar": {
-    "background": { "value": "{color.background.tertiary.value}" }
+    "background": { "value": "{color.background.badge.value}" }
   }
 }

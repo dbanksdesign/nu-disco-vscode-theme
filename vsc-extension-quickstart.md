@@ -1,10 +1,17 @@
-# Welcome to your VS Code Extension
+# VS Code Color Theme with Style Dictionary
 
-## What's in the folder
+## Getting started
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Pascal Theme-color-theme.json` - the color theme definition file.
+1. Install dependencies using yarn or npm
+1. Run `npm run build` to create the theme files or run `npm run watch` to watch for file changes and run the build process
+
+## What to look at
+
+* **build.js**: this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
+* **tokens/**: this contains core design tokens that are aliased/referenced in the theme
+* **theme/**: defines the theme colors of the editor
+* **theme/tokenColors**: defines the syntax highlighting colors, which are called 'tokenColors' in a VS Code theme
+* **package.json**:
 
 ## Get up and running straight away
 

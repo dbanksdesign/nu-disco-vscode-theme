@@ -1,52 +1,59 @@
 {
-    "name": "nu-disco",
-    "displayName": "Nu Disco Theme",
-    "description": "A VS Code theme that boogies.",
-    "publisher": "dbanksdesign",
-    "license": "MIT",
-    "version": "1.0.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dbanksdesign/nu-disco-vscode-theme"
-    },
-    "engines": {
-        "vscode": "^1.38.0"
-    },
-    "scripts": {
-        "build": "node build.js",
-        "watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'",
-        "publish": "vsce publish"
-    },
-    "galleryBanner": {
-        "color": "#0C001F",
-        "theme": "dark"
-    },
-    "icon": "images/icon.png",
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "Nu Disco",
-        "Dark Theme",
-        "Light Theme",
-        "Style Dictionary"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nu Disco Dark",
-                "uiTheme": "vs-dark",
-                "path": "./dist/nu-disco-dark.color-theme.json"
-            },{
-                "label": "Nu Disco Light",
-                "uiTheme": "vs",
-                "path": "./dist/nu-disco-light.color-theme.json"
-            }
-        ]
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "chokidar-cli": "^2.0.0",
-        "style-dictionary": "^2.8.2"
-    }
+	"name": "nu-disco",
+	"displayName": "Nu Disco Theme",
+	"description": "A VS Code theme that boogies.",
+	"publisher": "dbanksdesign",
+	"license": "MIT",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme"
+	},
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"scripts": {
+		"build": "node build.js",
+		"watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'",
+		"prepublish": "npm run build",
+		"publish": "vsce publish"
+	},
+	"galleryBanner": {
+		"color": "#0C001F",
+		"theme": "dark"
+	},
+	"icon": "images/icon.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Nu Disco",
+		"Dark Theme",
+		"Light Theme",
+		"Style Dictionary"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nu Disco Dark",
+				"uiTheme": "vs-dark",
+				"path": "./dist/nu-disco-dark.color-theme.json"
+			},
+			{
+				"label": "Nu Disco Light",
+				"uiTheme": "vs",
+				"path": "./dist/nu-disco-light.color-theme.json"
+			}
+		]
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"chokidar-cli": "^2.0.0",
+		"style-dictionary": "^2.8.2"
+	},
+	"__metadata": {
+		"id": "aebdc3e6-29b0-44bc-8c00-5a13c7c3164d",
+		"publisherDisplayName": "dbanksdesign",
+		"publisherId": "5602ea9d-f0b9-464f-84d7-7e88fa1be60c"
+	}
 }

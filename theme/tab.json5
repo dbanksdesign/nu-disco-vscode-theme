@@ -1,11 +1,11 @@
 {
   "tab": {
-    "unfocusedHoverBorder": { "value": "{color.core.teal.100.value}" },
+    "unfocusedHoverBorder": { "value": "{color.border.active.value}" },
     "activeBackground": { "value": "{color.background.primary.value}" },
     "activeForeground": { "value": "{color.font.primary.value}" },
     "border": { "value": "#ffffff00" },
-    "activeBorder": { "value": null },
-    "unfocusedActiveBorder": { "value": null },
+    "activeBorder": {},
+    "unfocusedActiveBorder": {},
     "inactiveBackground": { "value": "{color.background.tertiary.value}" },
     "inactiveForeground": { "value": "{color.font.tertiary.value}" },
     "unfocusedActiveForeground": { "value": "{color.font.secondary.value}" },

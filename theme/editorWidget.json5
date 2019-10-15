@@ -17,10 +17,10 @@
     "selectedBackground": { "value": "{color.background.selection.tertiary.active.value}" }
   },
   
-  // ex. Quick Fix popup
+  // ex. Quick Fix popup or git hover popup
   "editorHoverWidget": {
-    "background": { "value": "{color.background.quarternary.value}" },
-    "border": { "value": "{color.border.secondary.value}" },
+    "background": { "value": "{color.background.tertiary.value}" },
+    "border": { "value": "{color.border.tertiary.value}" },
     "statusBarBackground": { "value": "{color.background.tertiary.value}" }
   }
 }

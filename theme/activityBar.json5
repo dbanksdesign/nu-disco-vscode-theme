@@ -6,7 +6,7 @@
     // Drag and drop feedback color for the Activity Bar items
     "dropBackground": { "value": "{color.background.drop.value}" },
     "foreground": { "value": "{color.font.link.secondary.active.value}" },
-    "border": { "value": "#FFFFFF00" }
+    "border": { "value": "{color.border.tertiary.value}" }
   },
   "activityBarBadge": {
     "background": { "value": "{color.background.badge.value}" },

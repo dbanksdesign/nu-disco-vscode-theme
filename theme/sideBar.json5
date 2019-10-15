@@ -2,7 +2,7 @@
   "sideBar": {
     "background": { "value": "{color.background.secondary.value}" },
     "foreground": { "value": "{color.font.secondary.value}" },
-    "border": { "value": "#FFFFFF00" },
+    "border": { "value": "{color.border.tertiary.value}" },
     "dropBackground": { "value": "{color.background.selection.primary.active.value}" }
   },
   "sideBarSectionHeader": {

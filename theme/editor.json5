@@ -47,34 +47,53 @@
     
     // When you do a search in the file and it highlights the line
     // of the match you are on
-    "rangeHighlightBackground": { "value": "{color.background.tertiary.value}" }
+    "rangeHighlightBackground": { "value": "{color.background.tertiary.value}" },
+    
+    "focusedStackFrameHighlightBackground": { "value": "#f90" },
+    "stackFrameHighlightBackground": { "value": "#0f0" }
   },
   
   "editorLineNumber": {
     "foreground": { "value": "{color.font.tertiary.value}" },
-    "activeForeground": { "value": "{color.font.active.value}" }
+    "activeForeground": { "value": "{color.font.primary.value}" }
   },
   
   "editorCursor": {
-    "foreground": { "value": "{color.core.teal.40.value}" }
+    "foreground": { "value": "{color.background.info.value}" }
   },
   "editorLink": {
     "activeForeground": "{color.font.link.primary.inactive.value}"
   },
+  
+  // Next to the line numbers
   "editorGutter": {
     "background": { "value": "{color.background.primary.value}" },
-    "modifiedBackground": { "value": "{color.core.teal.40.value}" },
-    "addedBackground": { "value": "{color.core.green2.20.value}" },
-    "deletedBackground": { "value": "{color.core.red.40.value}" }
+    "modifiedBackground": { "value": "{color.border.info.value}" },
+    "addedBackground": { "value": "{color.border.success.value}" },
+    "deletedBackground": { "value": "{color.border.danger.value}" }
   },
+  
   "editorOverviewRuler": {
-    "border": { "value": "#ffffff00" },
-    "findMatchForeground": { "value": "{color.core.green.40.value}66" },
-    "rangeHighlightForeground": { "value": "#0000ff" },
-    "selectionHighlightForeground": { "value": "{color.core.purple.40.value}" },
-    "currentContentForeground": { "value": "#ffffff" },
-    "incomingContentForeground": { "value": "#00ff00" },
-    "commonContentForeground": { "value": "#0000ff" }
+    "border": { "value": "{color.border.secondary.value}" },
+
+    "findMatchForeground": { "value": "#00ff00CC" },
+    "rangeHighlightForeground": { "value": "#0000ffCC" },
+    "selectionHighlightForeground": { "value": "{color.core.purple.40.value}CC" },
+
+    "currentContentForeground": { "value": "#ffffffCC" },
+    "incomingContentForeground": { "value": "#00ff00CC" },
+    "commonContentForeground": { "value": "#0000ffCC" },
+
+    // Git indicators, will match similar ones in editorGutter
+    "modifiedForeground": { "value": "{color.border.info.value}" },
+    "addedForeground": { "value": "{color.border.success.value}" },
+    "deletedForeground": { "value": "{color.border.danger.value}" },
+
+    // Will match squiggly lines
+    "errorForeground": { "value": "{color.border.danger.value}" },
+    "warningForeground": { "value": "{color.border.warning.value}" },
+    "infoForeground": { "value": "{color.border.info.value}" },
+    "bracketMatchForeground": { "value": "{editorBracketMatch.background.value}" },
   },
   
   // The squiggly lines when there is an error
@@ -89,30 +108,45 @@
   },
   "editorInfo": {
     "foreground": { "value": "{color.font.info.value}" },
-    "border": {  }
+    "border": {}
   },
   "editorHint": {
-    "foreground": { "value": "{color.core.purple.40.value}" },
-    "border": { "value": "#FFFFFF00" }
+    "foreground": { "value": "{color.font.active.value}" },
+    "border": {}
   },
+  
+  // Highlights the opening and closing brackets when the cursor is on one
+  // Setting: editor.matchBrackets
   "editorBracketMatch": {
     "background": { "value": "{color.background.highlight.secondary.inactive.value}" },
     "border": { "value": "#FFFFFF00" }
   },
+  
+  // Shows spaces/tabs
   "editorWhitespace": {
     "foreground": { "value": "{color.font.quint.value}" }
   },
+  
   // Vertical line for indents
+  // Setting: editor.renderIndentGuides
+  // Setting: editor.highlightActiveIndentGuide
   "editorIndentGuide": {
-    "background": { "value": "{color.border.secondary.value}" },
-    "activeBackground": { "value": "{color.border.active.value}" }
+    "background": { "value": "{color.border.tertiary.value}" },
+    "activeBackground": { "value": "{color.border.primary.value}" }
   },
+  
+  // Vertical line at X characters, usually around 80
+  // Setting: editor.rulers
   "editorRuler": {
     "foreground": { "value": "{color.border.secondary.value}" }
   },
+  
+  // Git information text in the editor
+  // Setting: editor.codeLens
   "editorCodeLens": {
-    "foreground": { "value": "{color.core.teal.40.value}CC" }
+    "foreground": { "value": "{color.font.link.secondary.inactive.value}" }
   },
+  
   // Unused code
   "editorUnnecessaryCode": {
     // Only sets the opacity, not the actual color
