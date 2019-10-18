@@ -13,89 +13,66 @@
       },
       
       "red": {
-        "100": { "value": "#E90404" },
-        "80": { "value": "#E62424" },
-        "60": { "value": "#F74040" },
-        "40": { "value": "#FF6969" },
-        "20": { "value": "#FF8686" },
-        "10": { "value": "#FFB8B8" },
-        "5": { "value": "#FFDADA" }
+        "darker": { "value": "#BD0000" },
+        "dark": { "value": "#E62424" },
+        "light": { "value": "#FF7878" },
+        "lighter": { "value": "#FFB8B8" },
       },
       
       "orange": {
-        "100": { "value": "#F06F00" },
-        "80": { "value": "#F27C18" },
-        "60": { "value": "#F98D30" },
-        "40": { "value": "#FF9C47" },
-        "20": { "value": "#FDAD69" },
-        "10": { "value": "#FFC593" },
-        "5": { "value": "#FFDFC4" }
+        "darker": { "value": "#D16100" },
+        "dark": { "value": "#F27C18" },
+        "light": { "value": "#FFB271" },
+        "lighter": { "value": "#FFDDC0" },
       },
       
       "yellow": {
-        "20": { "value": "#FFF373" },
-        "10": { "value": "#FFF693" }
+        "darker": { "value": "#D0BF00" },
+        "dark": { "value": "#EEDA00" },
+        "light": { "value": "#FFF373" },
+        "lighter": { "value": "#FFF9BB" },
       },
       
       "lime": {
-        "100": { "value": "#72AB00" },
-        "80": { "value": "#7EBD00" },
-        "60": { "value": "#92C231" },
-        "40": { "value": "#A2C856" },
-        "20": { "value": "#C3E482" },
-        "10": { "value": "#D7ECAE" },
-        "5": { "value": "#E8F6CD" }
+        "darker": { "value": "#669900" },
+        "dark": { "value": "#7EBD00" },
+        "light": { "value": "#CBF37C" },
+        "lighter": { "value": "#E8FFBA" },
       },
       
       "green": {
-        "100": { "value": "#0FAB00" },
-        "80": { "value": "#11BD00" },
-        "60": { "value": "#3EC231" },
-        "40": { "value": "#60C856" },
-        "20": { "value": "#8AD183" },
-        "10": { "value": "#B3ECAE" },
-        "5": { "value": "#D1F6CD" }
+        "darker": { "value": "#0E9E00" },
+        "dark": { "value": "#06B706" },
+        "light": { "value": "#81DF81" },
+        "lighter": { "value": "#AEECAE" },
       },
       
       "teal": {
-        "120": { "value": "#00625F" },
-        "100": { "value": "#00837F" },
-        "80": { "value": "#0CABA6" },
-        "60": { "value": "#1FC5BF" },
-        "40": { "value": "#32D3CD" },
-        "20": { "value": "#52E7E1" },
-        "10": { "value": "#C4FFFD" },
-        "5": { "value": "#E5FEFE" }
+        "darker": { "value": "#00837F" },
+        "dark": { "value": "#0CABA6" },
+        "light": { "value": "#52E7E1" },
+        "lighter": { "value": "#C4FFFD" },
       },
       
       "blue": {
-        "100": { "value": "#0072AB" },
-        "80": { "value": "#0081C2" },
-        "60": { "value": "#2998D0" },
-        "40": { "value": "#45A3D3" },
-        "20": { "value": "#7DBEFF" },
-        "10": { "value": "#AED7EC" },
-        "5": { "value": "#CDE8F6" }
+        "darker": { "value": "#005C8A" },
+        "dark": { "value": "#0081C2" },
+        "light": { "value": "#6BB5FF" },
+        "lighter": { "value": "#C3E7F9" },
       },
       
       "purple": {
-        "100": { "value": "#280E54" },
-        "80": { "value": "#4B1E97" },
-        "60": { "value": "#6133AF" },
-        "40": { "value": "#7754B1" },
-        "20": { "value": "#9470D1" },
-        "10": { "value": "#BD9DF3" },
-        "5": { "value": "#E4D5FF" }
+        "darker": { "value": "#280E54" },
+        "dark": { "value": "#4B1E97" },
+        "light": { "value": "#AD7DFF" },
+        "lighter": { "value": "#D5BDFF" },
       },
       
       "pink": {
-        "100": { "value": "#B6034B" },
-        "80": { "value": "#E62472" },
-        "60": { "value": "#F7408A" },
-        "40": { "value": "#FF69A6" },
-        "20": { "value": "#FF86B7" },
-        "10": { "value": "#FFB8D5" },
-        "5": { "value": "#FFDAE9" }
+        "darker": { "value": "#B6034B" },
+        "dark": { "value": "#E62472" },
+        "light": { "value": "#FF82B4" },
+        "lighter": { "value": "#FFCFE3" },
       },
     }
   }

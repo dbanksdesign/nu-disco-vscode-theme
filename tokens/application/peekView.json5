@@ -8,7 +8,7 @@
   
   "peekViewEditor": {
     "background": { "value": "{color.background.primary.value}" },
-    "matchHighlightBackground": { "value": "{color.background.quarternary.value}" },
+    "matchHighlightBackground": { "value": "{color.background.quaternary.value}" },
     "matchHighlightBorder": {}
   },
   

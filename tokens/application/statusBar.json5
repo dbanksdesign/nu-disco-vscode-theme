@@ -1,6 +1,7 @@
+// The status bar is at the bottom with 
 {
   "statusBar": {
-    "background": { "value": "{color.background.quarternary.value}" },
+    "background": { "value": "{color.background.quaternary.value}" },
     "foreground": { "value": "{color.font.primary.value}" },
     "border": { "value": "#FFFFFF00" },
     
@@ -8,7 +9,7 @@
     "debuggingForeground": { "value": "{color.font.primary.value" },
     "debuggingBorder": { "value": "#FFFFFF00" },
     
-    "noFolderBackground": { "value": "{color.background.tertiary.value}" },
+    "noFolderBackground": { "value": "{color.background.primary.value}" },
     "noFolderForeground": { "value": "{color.font.primary.value" },
     "noFolderBorder": { "value": "#FFFFFF00" }
   },

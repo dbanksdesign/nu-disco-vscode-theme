@@ -18,6 +18,6 @@
   },
   // Still haven't found this
   "textSeparator": {
-    "foreground": { "value": "#00ff00" }
+    "foreground": {}
   }
 }

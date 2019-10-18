@@ -1,0 +1,9 @@
+{
+  "diffEditor": {
+    "insertedTextBackground": { "value": "{color.background.success.value}33" },
+    "insertedTextBorder": {},
+    "removedTextBackground": { "value": "{color.background.danger.value}33" },
+    "removedTextBorder": {},
+    "border": {}
+  }
+}

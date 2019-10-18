@@ -1,0 +1,11 @@
+{
+  //
+  "debugExceptionWidget": {
+    "background": {},
+    "border": {}
+  },
+  // Toolbar that comes up with pause, stop, etc. buttons when running debug
+  "debugToolBar": {
+    "background": { "value": "{color.background.quaternary.value}" }
+  }
+}

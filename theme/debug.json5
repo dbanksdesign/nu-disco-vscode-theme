@@ -1,9 +1,0 @@
-{
-  "debugExceptionWidget": {
-    "background": {},
-    "border": {}
-  },
-  "debugToolBar": {
-    "background": { "value": "{color.background.badge.value}" }
-  }
-}

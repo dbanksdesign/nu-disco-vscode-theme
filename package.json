@@ -14,7 +14,8 @@
 	},
 	"scripts": {
 		"build": "node build.js",
-		"watch": "npm run build && chokidar 'tokens/**/*.json5' 'theme/**/*.json5' -c 'npm run build'",
+		"watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
+		"start": "npm run watch",
 		"prepublish": "npm run build",
 		"publish": "vsce publish"
 	},
@@ -37,12 +38,12 @@
 			{
 				"label": "Nu Disco Dark",
 				"uiTheme": "vs-dark",
-				"path": "./dist/nu-disco-dark.color-theme.json"
+				"path": "./build/nu-disco-dark.color-theme.json"
 			},
 			{
 				"label": "Nu Disco Light",
 				"uiTheme": "vs",
-				"path": "./dist/nu-disco-light.color-theme.json"
+				"path": "./build/nu-disco-light.color-theme.json"
 			}
 		]
 	},

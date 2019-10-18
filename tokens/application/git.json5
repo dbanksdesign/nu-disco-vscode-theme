@@ -4,7 +4,7 @@
     "modifiedResourceForeground": { "value": "{color.font.info.value}" },
     "deletedResourceForeground": { "value": "{color.font.danger.value}" },
     "untrackedResourceForeground": { "value": "{color.font.warning.value}" },
-    "ignoredResourceForeground": { "value": "{color.font.tertiary.value}" },
+    "ignoredResourceForeground": { "value": "{color.font.quaternary.value}" },
     "conflictingResourceForeground": { "value": "{color.font.active.value}" }
   }
 }
