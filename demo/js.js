@@ -1,6 +1,7 @@
 'use strict'
+
 /**
- * This is a *foo* **bar** alsdkjf.
+ * This is a *italics* **bold** and [a link](https://dbanks.design).
  */
 class Sale {
   constructor(price) {

@@ -1,3 +1,18 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a:hover {}
+a::before {}
+
 .someClass {
   font-family: serif;
 }
@@ -9,3 +24,31 @@
 main {
   margin-top: 20px;
 }
+
+p > a {}
+
+.loader {
+  transform: translateX(0);
+  animation: 1.5s linear infinite normal loading_animation;
+}
+
+@keyframes loading_animation {
+  0% {
+    transform: translateX(-25%);
+    width: 0;
+  }
+  50% {
+    transform: translateX(50%);
+    width: 50%;
+  }
+  100% {
+    transform: translateX(150%);
+    width: 75%;
+  }
+}
+
+/* attribute selectors */
+a[title] {}
+a[href="https://example.org"] {}
+a[href*="example"] {}
+a[href$=".org"] {}

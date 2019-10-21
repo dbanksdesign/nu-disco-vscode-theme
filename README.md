@@ -8,6 +8,8 @@
 
 Nu Disco is a VSCode theme powered by [Style Dictionary](https://styledictionary.com) and built by [Danny Banks](https://twitter.com/dbanksdesign).
 
+![Javascript screenshot of Nu Disco Dark](images/js.png)
+
 
 ## Installation
 
