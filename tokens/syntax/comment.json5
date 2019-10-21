@@ -1,7 +1,8 @@
+// Code comments, you can target single, block, and documentation type comments
 {
   "tokenColors": {
     "comment": {
-      "default": { "value": "{color.font.tertiary.value}" },
+      "*": { "value": "{color.font.tertiary.value}" },
       "line": { 
         "value": "{color.font.tertiary.value}",
         "fontStyle": "italic"

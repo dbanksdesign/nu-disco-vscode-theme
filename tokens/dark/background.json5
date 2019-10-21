@@ -8,7 +8,7 @@
       
       "drop": { "value": "{color.core.teal.light.value}66" },
       "badge": { "value": "{color.core.teal.darker.value}" },
-      "debug": { "value": "{color.core.blue.darker.value}" },
+      "debug": { "value": "{color.core.purple.dark.value}" },
       
       "danger": { "value": "{color.core.red.light.value}" },
       "warning": { "value": "{color.core.orange.light.value}" },

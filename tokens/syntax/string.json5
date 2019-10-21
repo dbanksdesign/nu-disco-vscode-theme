@@ -1,7 +1,7 @@
 {
   "tokenColors": {
     "string": {
-      "default": { "value": "{color.font.code.25.value}" },
+      "*": { "value": "{color.font.code.25.value}" },
       "quoted": {
         "single": {},
         "double": {},

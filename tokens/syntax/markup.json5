@@ -1,3 +1,5 @@
+// Things in markup/markdown languages. Applies to markdown files as well as 
+// documentation comments if you include markdown syntax.
 {
   "tokenColors": {
     "markup": {

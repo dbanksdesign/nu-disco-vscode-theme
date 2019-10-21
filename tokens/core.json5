@@ -41,10 +41,10 @@
       },
       
       "green": {
-        "darker": { "value": "#0E9E00" },
-        "dark": { "value": "#06B706" },
-        "light": { "value": "#81DF81" },
-        "lighter": { "value": "#AEECAE" },
+        "darker": { "value": "#009E35" },
+        "dark": { "value": "#06B741" },
+        "light": { "value": "#67E591" },
+        "lighter": { "value": "#AEECC3" },
       },
       
       "teal": {

@@ -1,24 +1,29 @@
+// A lot of elements have a meta scope, but it takes a lower priority than more 
+// specific scopes. For example, every element from the start of a class definition 
+// in Javascript to the end curly brace has a scope of `meta.class`.
+// The elements where this has higher specificity are things like braces
+// (curly, square, round)
 {
   "tokenColors": {
     "meta": {
       "brace": {
         "round": { /* () */
-          "default": { "value": "{color.font.primary.value}" }
+          "*": { "value": "{color.font.primary.value}" }
         },
         "square": { /* [] */
-          "default": { "value": "{color.font.primary.value}" },
+          "*": { "value": "{color.font.primary.value}" },
         }
       },
       "class": {
-        "default": { "value": "{color.font.code.22.value}" }
+        "*": { "value": "{color.font.code.22.value}" }
       },
       "jsx": {
         "children": {
-          "default": { "value": "{color.font.primary.value}" }
+          "*": { "value": "{color.font.primary.value}" }
         }
       },
       "object": {
-        "default": { "value": "{color.font.code.29.value}" },
+        "*": { "value": "{color.font.code.29.value}" },
         "member": {}
       },
       "property-name": {
@@ -29,11 +34,11 @@
       },
       "property-list": {},
       "selector": {
-        "default": { "value": "{color.font.code.5.value}" }
+        "*": { "value": "{color.font.code.5.value}" }
       },
       "structure": {
         "dictionary": {
-          "default": { "value": "{color.font.code.28.value}" }
+          "*": { "value": "{color.font.code.28.value}" }
         }
       },
       "tag": {
@@ -44,7 +49,7 @@
       },
       "var": {
         "expr": {
-          "default": { "value": "{color.font.code.8.value}" }
+          "*": { "value": "{color.font.code.8.value}" }
         }
       }
     },

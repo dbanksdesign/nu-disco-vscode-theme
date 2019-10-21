@@ -1,9 +1,13 @@
+// Things like `new`, import/export, and operators like conditionals or relational 
+// (less than, greater than, etc.). Does not include type words like 
+// `async`, `var`, `let`, etc., those are in storage.
 {
   "tokenColors": {
     "keyword": {
-      "default": { "value": "{color.font.code.8.value}" },
+      // Using 'default' here will apply this to the `keyword` scope
+      "*": { "value": "{color.font.code.8.value}" },
       "control": {
-        "default": { "value": "{color.font.code.8.value}" },
+        "*": { "value": "{color.font.code.8.value}" },
         "conditional": {},
         "export": {},
         "import": {
@@ -19,7 +23,7 @@
         }
       },
       "operator": {
-        "default": { "value": "{color.font.primary.value}" },
+        "*": { "value": "{color.font.primary.value}" },
         "arithmetic": {},
         "assignment": {},
         "bitwise": {},

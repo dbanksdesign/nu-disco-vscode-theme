@@ -2,6 +2,31 @@
 // https://styledictionary.com
 const StyleDictionary = require('style-dictionary');
 
+// This is a custom name transform for Style Dictionary
+// It will take the token's object path and create a dot-separated string
+// for example: activityBar.background
+StyleDictionary.registerTransform({
+  name: 'vsCodeName',
+  type: 'name',
+  transformer: (token) => {
+    // 
+    if (token.path[0] === 'tokenColors') {
+      // This allows you to have tokens at multiple levels
+      // like `comment` and `comment.line`
+      if (token.name === '*') {
+        // removes the first and last parts of the path
+        return token.path.slice(1,-1).join('.')
+      } else {
+        // removes the first part of the path which would be 'tokenColors'
+        return token.path.slice(1).join('.')
+      }
+    } else {
+      // Used for application colors
+      return token.path.join('.');
+    }
+  }
+});
+
 // Add a custom format that will generate the VSCode theme JSON
 StyleDictionary.registerFormat({
   name: 'vsCodeTheme',
@@ -40,34 +65,6 @@ StyleDictionary.registerFormat({
   }
 });
 
-// This is a custom name transform for Style Dictionary
-// It will take the token's object path and create a dot-separated string
-// for example: activityBar.background
-StyleDictionary.registerTransform({
-  name: 'nameColor',
-  type: 'name',
-  matcher: (token) => token.path[0] !== 'tokenColors',
-  transformer: (token) => token.path.join('.')
-});
-
-// 
-StyleDictionary.registerTransform({
-  name: 'nameSyntax',
-  type: 'name',
-  matcher: (token) => token.path[0] === 'tokenColors',
-  transformer: (token) => {
-    // This allows you to have tokens at multiple levels
-    // like `comment` and `comment.line`
-    if (token.name === 'default') {
-      // removes the first and last parts of the path
-      return token.path.slice(1,-1).join('.')
-    } else {
-      // removes the first part of the path which would be 'tokenColors'
-      return token.path.slice(1).join('.')
-    }
-  }
-});
-
 const themeTypes = [`dark`, `light`];
 
 // Iterate over each theme type and build with style dictionary
@@ -94,8 +91,10 @@ themeTypes.forEach((themeType) => {
         // the custom format
         themeType: themeType,
         // The name of the custom transforms we defined above
-        transforms: [`nameColor`,`nameSyntax`],
+        transforms: [`vsCodeName`],
         files: [{
+          // The path the file will be created at. Make sure this matches
+          // the file paths defined in the package.json
           destination: `nu-disco-${themeType}.color-theme.json`,
           // The name of the custom format defined above
           format: `vsCodeTheme`

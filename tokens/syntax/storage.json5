@@ -1,11 +1,10 @@
 {
   "tokenColors": {
     "storage": {
-      default: { value: "{color.font.code.8.value}" },
+      "*": { "value": "{color.font.code.8.value}" },
       "modifier": {},
-      type: {
-        default: { value: "{color.font.code.8.value}" },
-        function: { value: "{color.font.primary.value}" }
+      "type": {
+        "function": {}
       }
     },
   }

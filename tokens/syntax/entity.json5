@@ -1,3 +1,7 @@
+// These are names of functions, data structures, classes, etc., but not of 
+// variables which reference them. For example, `var foo = someFunction();`, 
+// `someFunction()` would be an entity. Entity also includes some HTML syntax 
+// like tags and tag attributes.
 {
   "tokenColors": {
     // The entity scopes are generally assigned to the names of data structures,
@@ -14,7 +18,7 @@
         "interface": {},
         "impl": {},
         "tag": {
-          "default": { "value": "{color.font.code.21.value}" },
+          "*": { "value": "{color.font.code.21.value}" },
           "reference": { "value": "{color.font.code.8.value}" },
           "yaml": { "value": "{color.font.code.22.value}" },
         },
@@ -22,7 +26,7 @@
           "module": { "value": "{color.font.code.22.value}" }
         },
         "function": {
-          "default": { "value": "{color.font.code.27.value}" },
+          "*": { "value": "{color.font.code.27.value}" },
           "constructor": {},
           "destructor": {}
         }
@@ -31,7 +35,7 @@
         "attribute-name": {
           "id": { "value": "{color.font.code.22.value}" },
           "class": { "value": "{color.font.code.23.value}" },
-          "default": { "value": "{color.font.code.27.value}" }
+          "*": { "value": "{color.font.code.27.value}" }
         }
       }
     }
