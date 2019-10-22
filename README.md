@@ -43,7 +43,7 @@ To customize application colors, add `workbench.colorCustomizations` attribute t
 
 ### Customizing the syntax colors
 
-To customize application colors, add `editor.tokenColorCustomizations` attribute to the **settings.json** file like this:
+To customize syntax colors, add `editor.tokenColorCustomizations` attribute to the **settings.json** file like this:
 
 ```json
 "editor.tokenColorCustomizations": {
