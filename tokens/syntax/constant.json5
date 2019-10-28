@@ -1,6 +1,6 @@
 // Constants are things like booleans, nulls, numbers.
 {
-  "tokenColors": {
+  "syntax": {
     "constant": {
       "character": {
         // escape characters like /

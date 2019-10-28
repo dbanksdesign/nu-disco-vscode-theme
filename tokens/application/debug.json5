@@ -1,5 +1,5 @@
 {
-  //
+  // A peek view that shows in the editor when debug stops at an exception.
   "debugExceptionWidget": {
     "background": {},
     "border": {}

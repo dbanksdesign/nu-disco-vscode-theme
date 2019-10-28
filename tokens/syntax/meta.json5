@@ -4,7 +4,7 @@
 // The elements where this has higher specificity are things like braces
 // (curly, square, round)
 {
-  "tokenColors": {
+  "syntax": {
     "meta": {
       "brace": {
         "round": { /* () */

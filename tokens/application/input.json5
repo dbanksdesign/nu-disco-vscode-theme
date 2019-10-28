@@ -1,7 +1,7 @@
 {
   "input": {
     "background": { "value": "{color.background.tertiary.value}" },
-    "border": { "value": "#ffffff00" },
+    "border": { "value": "#0000" },
     "foreground": { "value": "{color.font.primary.value}" },
     "placeholderForeground": { "value": "{color.font.tertiary.value}" }
   },
@@ -25,7 +25,7 @@
   
   // For example the buttons inside the search and search in file inputs
   "inputOption": {
-    "activeBorder": { "value": "#FFFFFF00" },
+    "activeBorder": { "value": "#0000" },
     "activeBackground": { "value": "{color.background.interactive.base.value}" }
   }
 }

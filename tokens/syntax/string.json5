@@ -1,5 +1,5 @@
 {
-  "tokenColors": {
+  "syntax": {
     "string": {
       "*": { "value": "{color.font.code.25.value}" },
       "quoted": {

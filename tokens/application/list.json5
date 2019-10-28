@@ -1,4 +1,6 @@
 {
+  // List and trees like the File Explorer.
+  // An active list/tree has keyboard focus, an inactive does not.
   "list": {
     "activeSelectionBackground": { "value": "{color.background.selection.tertiary.active.value}" },
     "activeSelectionForeground": { "value": "{color.font.primary.value}" },

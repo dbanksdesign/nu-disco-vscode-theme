@@ -2,9 +2,9 @@
 // (less than, greater than, etc.). Does not include type words like 
 // `async`, `var`, `let`, etc., those are in storage.
 {
-  "tokenColors": {
+  "syntax": {
     "keyword": {
-      // Using 'default' here will apply this to the `keyword` scope
+      // Using '*' here will apply this to the `keyword` scope
       "*": { "value": "{color.font.code.8.value}" },
       "control": {
         "*": { "value": "{color.font.code.8.value}" },

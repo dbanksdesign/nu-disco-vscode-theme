@@ -3,7 +3,7 @@
 // `someFunction()` would be an entity. Entity also includes some HTML syntax 
 // like tags and tag attributes.
 {
-  "tokenColors": {
+  "syntax": {
     // The entity scopes are generally assigned to the names of data structures,
     // types and other uniquely-identifiable constructs in code and markup. The 
     // notable exceptions are entity.name.tag and entity.other.attribute-name, 

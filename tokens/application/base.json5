@@ -22,6 +22,6 @@
   
   // Widgets are the quick command palette, notifications, quick search, etc.
   "widget": {
-    "shadow": { "value": "#FFFFFF00" }
+    "shadow": { "value": "#0000" }
   }
 }

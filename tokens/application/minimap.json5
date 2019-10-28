@@ -1,3 +1,5 @@
+// The minimap shows the code overview on the right side of the editor
+// Enable it in settings
 {
   "minimap": {
     "findMatchHighlight": { "value": "{editor.findMatchBackground.value}" },

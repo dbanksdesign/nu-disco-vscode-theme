@@ -1,7 +1,7 @@
 // Things in markup/markdown languages. Applies to markdown files as well as 
 // documentation comments if you include markdown syntax.
 {
-  "tokenColors": {
+  "syntax": {
     "markup": {
       "bold": { 
         "value": "{color.font.code.28.value}",

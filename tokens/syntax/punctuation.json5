@@ -1,5 +1,5 @@
 {
-  "tokenColors": {
+  "syntax": {
     "punctuation": {
       "accessor": {
         value: "{color.font.primary.value}"
@@ -17,7 +17,7 @@
         "heading": { "value": "{color.font.code.22.value}" },
         "list": { "value": "{color.font.code.21.value}" },
         "parameters": {
-          value: "{color.font.primary.value}"
+          "value": "{color.font.primary.value}"
         },
         "quote": {},
         "string": {
@@ -29,8 +29,16 @@
           "*": { "value": "{color.font.primary.value}" }
         },
         "typeparameters": { "value": "{color.font.primary.value}" },
+        
+        // ${} in string templates in JS
+        "template-expression": {
+          "*": { "value": "{color.font.code.21.value}" },
+          "begin": {},
+          "end": {}
+        },
         "variable": {}
       },
+      
       "section": {
         "*": { "value": "{color.font.secondary.value}" },
         "interpolation": {

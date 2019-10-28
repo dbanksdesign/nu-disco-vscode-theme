@@ -1,5 +1,5 @@
 {
-  "tokenColors": {
+  "syntax": {
     "variable": {
       "*": { "value": "{color.font.code.26.value}" },
       "language": {

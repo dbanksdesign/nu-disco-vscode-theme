@@ -48,8 +48,9 @@
     // of the match you are on
     "rangeHighlightBackground": { "value": "{color.background.tertiary.value}" },
     
-    "focusedStackFrameHighlightBackground": { "value": "#f90" },
-    "stackFrameHighlightBackground": { "value": "#0f0" },
+    // These are used in debugging
+    "focusedStackFrameHighlightBackground": {},
+    "stackFrameHighlightBackground": {},
     
     // When you insert a snippet that has parts you need to edit,
     // those are tabstops. Similar to selecting a part of text.
@@ -69,6 +70,7 @@
   "editorCursor": {
     "foreground": { "value": "{color.background.info.value}" }
   },
+  
   "editorLink": {
     "activeForeground": "{color.font.link.primary.inactive.value}"
   },
@@ -127,7 +129,7 @@
   // Setting: editor.matchBrackets
   "editorBracketMatch": {
     "background": { "value": "{color.background.highlight.secondary.inactive.value}" },
-    "border": { "value": "#FFFFFF00" }
+    "border": { "value": "#0000" }
   },
   
   // Shows spaces/tabs

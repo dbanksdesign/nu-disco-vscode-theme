@@ -1,4 +1,5 @@
 {
+  // Text colors in the file explorer for git statuses
   "gitDecoration": {
     "addedResourceForeground": { "value": "{color.font.success.value}" },
     "modifiedResourceForeground": { "value": "{color.font.info.value}" },

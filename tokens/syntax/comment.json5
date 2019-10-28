@@ -1,9 +1,10 @@
 // Code comments, you can target single, block, and documentation type comments
 {
-  "tokenColors": {
+  "syntax": {
     "comment": {
+      // Using * will work like apply to all nested scopes
       "*": { "value": "{color.font.tertiary.value}" },
-      "line": { 
+      "line": {
         "value": "{color.font.tertiary.value}",
         "fontStyle": "italic"
       },

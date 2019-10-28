@@ -1,5 +1,5 @@
 {
-  "tokenColors": {
+  "syntax": {
     "storage": {
       "*": { "value": "{color.font.code.8.value}" },
       "modifier": {},

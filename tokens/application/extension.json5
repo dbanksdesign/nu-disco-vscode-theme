@@ -6,7 +6,7 @@
     "prominentHoverBackground": { "value": "{color.background.interactive.hover.value}" }
   },
   "extensionBadge": {
-    "remoteBackground": { "value": "#ff0000" },
+    "remoteBackground": {},
     "remoteForeground": {}
   }
 }
