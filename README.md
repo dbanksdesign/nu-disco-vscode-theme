@@ -10,13 +10,16 @@ Nu Disco is a VSCode theme powered by [Style Dictionary](https://styledictionary
 
 ![Javascript screenshot of Nu Disco Dark](images/js.png)
 
+<a href="https://open.spotify.com/playlist/1L2F7UoL4D3UiJPIgOnmub?si=ZR5DZTHeRJWpGJCRTRIFxQ" style="display:inline-block; background:#67E591; color:#0C001F; padding:20px; font-weight:bold;">
+Listen to the theme playlist on Spotify 🎧
+</a>
 
 ## Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 1. Launch Visual Studio Code
 1. Choose **Extensions** from menu
-1. Search for `nu disco`
+1. Search for `Nu Disco`
 1. Click **Install** to install the extension
 1. Click **Reload** to reload VS Code
 1. From the menu bar click: Code > Preferences > Color Theme > **Nu Disco Dark**
@@ -86,9 +89,7 @@ When you run `npm run build` or `npm run watch` it will run the **build.js** fil
 
 ### About Style Dictionary
 
-If you are unfamiliar with [Style Dictionary](https://styledictionary.com), take a look at the docs to get yourself acquainted. A brief explanation of Style Dictionary and how it relates to building a VSCode theme. 
-
-Style Dictionary is a build tool for working with design tokens. Style Dictionary is configuration driven, it will find all your "source" token files, merge theme together, then for each platform defined in the configuration it will perform a series of transforms on each token, then format them all into files. 
+If you are unfamiliar with [Style Dictionary](https://styledictionary.com), take a look at the docs to get yourself acquainted. Style Dictionary is a build tool for working with design tokens. Style Dictionary is configuration driven, it will find all your "source" token files, merge theme together, then for each platform defined in the configuration it will perform a series of transforms on each token, then format them all into files. 
 
 * A design token in Style Dictionary is any node in the object that has a `value` attribute.
 * Transforms are only run on design tokens. Before any transforms are run, Style Dictionary will set up the token object, adding things like the object path of the token.
